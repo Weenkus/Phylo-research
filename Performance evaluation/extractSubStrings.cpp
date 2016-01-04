@@ -7,6 +7,7 @@ using namespace std;
 void parseSubstring(string inputFS, string outputFS, int numOfTestSamples, int subStrLen) {
     ifstream input(inputFS);
 
+    // Parse the FASTA file
     std::string line, name, content;
     while( std::getline( input, line ).good() ){
         if( line.empty() || line[0] == '>' ){ // Identifier marker
@@ -31,13 +32,16 @@ void parseSubstring(string inputFS, string outputFS, int numOfTestSamples, int s
         std::cout << name << " : " << content.substr(0, 10) << std::endl;
     }
 
-    ofstream output(outputFS, std::ios::app);
+    // Generate random substrings and print the to the output file
+    std::string outFileName = outputFS;
+    outFileName.append(to_string(subStrLen) + ".fasta");    // Generate a name that matches the substr length
+    ofstream output(outFileName, std::ios::app);
     for(int i{0}; i < numOfTestSamples; ++i) {
-        int randNum = rand() % content.length() - subStrLen - 1;
+        int randNum = rand() % (content.length() - subStrLen - 1) + subStrLen + 1;
         output << content.substr(randNum, subStrLen) << endl;
     }
 
-    output << endl << endl;
+    output << endl;
 }
 
 int main() {
@@ -46,10 +50,10 @@ int main() {
             inputEcoli("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/eColi.fasta"),
             inputO("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/Opitutaceae.fasta"),
             inputS("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/Sulfolobus.fasta");
-    string outputCV("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/CVbatch.fasta"),
-            outputEcoli("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/ECbatch.fasta"),
-            outputO("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/Obatch.fasta"),
-            outputS("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/SIbatch.fasta");
+    string outputCV("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/CVbatch"),
+            outputEcoli("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/ECbatch"),
+            outputO("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/Obatch"),
+            outputS("/media/weenkus/The Beast/Programming/Workspace/Projects/Phylo-research/db/tests/SIbatch");
 
     /* initialize random seed: */
     srand (unsigned(time(NULL)));
