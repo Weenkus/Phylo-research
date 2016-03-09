@@ -1,0 +1,67 @@
+Sequence,Nucleotide number,MB,Time,Algorithm
+ArtificialGenome1.fasta,10000000,10.1,0.0764676,Packing db
+ArtificialGenome1.fasta,10000000,10.1,5.3423354,BWT
+ArtificialGenome1.fasta,10000000,10.1,1.6168562,Fasta table
+ArtificialGenome1.fasta,10000000,10.1,1.8739834,SA
+ArtificialGenome1.fasta,10000000,10.1,10.1872792,total time
+ArtificialGenome1.fasta,10000000,10.1,10.1,size
+ArtificialGenome2.fasta,15281449,15.5,0.116599,Packing db
+ArtificialGenome2.fasta,15281449,15.5,8.6252422,BWT
+ArtificialGenome2.fasta,15281449,15.5,1.692042,Fasta table
+ArtificialGenome2.fasta,15281449,15.5,3.4805538,SA
+ArtificialGenome2.fasta,15281449,15.5,15.9360454,total time
+ArtificialGenome2.fasta,15281449,15.5,15.5,size
+ArtificialGenome3.fasta,20000000,20.3,0.1512804,Packing db
+ArtificialGenome3.fasta,20000000,20.3,11.2497158,BWT
+ArtificialGenome3.fasta,20000000,20.3,1.7176054,Fasta table
+ArtificialGenome3.fasta,20000000,20.3,4.0161044,SA
+ArtificialGenome3.fasta,20000000,20.3,18.8603172,total time
+ArtificialGenome3.fasta,20000000,20.3,20.3,size
+ArtificialGenome4.fasta,50000000,50.6,0.3776694,Packing db
+ArtificialGenome4.fasta,50000000,50.6,31.2289436,BWT
+ArtificialGenome4.fasta,50000000,50.6,1.817205,Fasta table
+ArtificialGenome4.fasta,50000000,50.6,10.7929576,SA
+ArtificialGenome4.fasta,50000000,50.6,46.841741,total time
+ArtificialGenome4.fasta,50000000,50.6,50.6,size
+ArtificialGenome5.fasta,100000000,101.3,0.7501446,Packing db
+ArtificialGenome5.fasta,100000000,101.3,66.5016092,BWT
+ArtificialGenome5.fasta,100000000,101.3,1.863518,Fasta table
+ArtificialGenome5.fasta,100000000,101.3,22.1158238,SA
+ArtificialGenome5.fasta,100000000,101.3,94.4329926,total time
+ArtificialGenome5.fasta,100000000,101.3,101.3,size
+ArtificialGenome6.fasta,500000000,506.3,3.799432,Packing db
+ArtificialGenome6.fasta,500000000,506.3,407.6559858,BWT
+ArtificialGenome6.fasta,500000000,506.3,2.1226034,Fasta table
+ArtificialGenome6.fasta,500000000,506.3,128.28073,SA
+ArtificialGenome6.fasta,500000000,506.3,568.032692,total time
+ArtificialGenome6.fasta,500000000,506.3,506.3,size
+ArtificialGenome7.fasta,1000000000,1012.6,7.508624,Packing db
+ArtificialGenome7.fasta,1000000000,1012.6,845.2083464,BWT
+ArtificialGenome7.fasta,1000000000,1012.6,2.270373,Fasta table
+ArtificialGenome7.fasta,1000000000,1012.6,266.5942562,SA
+ArtificialGenome7.fasta,1000000000,1012.6,1177.2023566,total time
+ArtificialGenome7.fasta,1000000000,1012.6,1012.6,size
+Canarypox virus complete genome,359853,0.3651,0.0053776,Packing db
+Canarypox virus complete genome,359853,0.3651,0.1916354,BWT
+Canarypox virus complete genome,359853,0.3651,1.282614,Fasta table
+Canarypox virus complete genome,359853,0.3651,0.1428036,SA
+Canarypox virus complete genome,359853,0.3651,3.4694724,total time
+Canarypox virus complete genome,359853,0.3651,0.3651,size
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,0.043018,Packing db
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,3.0542358,BWT
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,1.586833,Fasta table
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,0.9646736,SA
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,7.0389442,total time
+Escherichia coli O157:H7 str. Sakai DNA complete genome,5498450,5.6,5.6,size
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,0.0570514,Packing db
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,3.9540832,BWT
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,1.4962702,Fasta table
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,0.984005,SA
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,7.2376848,total time
+Opitutaceae bacterium TAV5 complete genome,7317842,7.4,7.4,size
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,0.0200606,Packing db
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,1.2673632,BWT
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,1.4121254,Fasta table
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,0.2923022,SA
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,3.3045684,total time
+Sulfolobus islandicus LAL14/1 complete genome,2465177,2.5,2.5,size
