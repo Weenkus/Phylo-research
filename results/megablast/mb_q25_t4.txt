@@ -1,0 +1,330 @@
+552 ms
+AG1_100000query0.fasta
+519 ms
+AG1_100000query1.fasta
+525 ms
+AG1_100000query2.fasta
+523 ms
+AG1_100000query3.fasta
+521 ms
+AG1_100000query4.fasta
+78 ms
+AG1_10000query0.fasta
+77 ms
+AG1_10000query1.fasta
+77 ms
+AG1_10000query2.fasta
+77 ms
+AG1_10000query3.fasta
+77 ms
+AG1_10000query4.fasta
+32 ms
+AG1_1000query0.fasta
+32 ms
+AG1_1000query1.fasta
+33 ms
+AG1_1000query2.fasta
+33 ms
+AG1_1000query3.fasta
+32 ms
+AG1_1000query4.fasta
+1220 ms
+AG2_100000query0.fasta
+1300 ms
+AG2_100000query1.fasta
+1327 ms
+AG2_100000query2.fasta
+1152 ms
+AG2_100000query3.fasta
+1520 ms
+AG2_100000query4.fasta
+168 ms
+AG2_10000query0.fasta
+132 ms
+AG2_10000query1.fasta
+127 ms
+AG2_10000query2.fasta
+180 ms
+AG2_10000query3.fasta
+179 ms
+AG2_10000query4.fasta
+39 ms
+AG2_1000query0.fasta
+41 ms
+AG2_1000query1.fasta
+38 ms
+AG2_1000query2.fasta
+48 ms
+AG2_1000query3.fasta
+39 ms
+AG2_1000query4.fasta
+584 ms
+AG3_100000query0.fasta
+587 ms
+AG3_100000query1.fasta
+577 ms
+AG3_100000query2.fasta
+588 ms
+AG3_100000query3.fasta
+578 ms
+AG3_100000query4.fasta
+85 ms
+AG3_10000query0.fasta
+86 ms
+AG3_10000query1.fasta
+86 ms
+AG3_10000query2.fasta
+86 ms
+AG3_10000query3.fasta
+85 ms
+AG3_10000query4.fasta
+35 ms
+AG3_1000query0.fasta
+38 ms
+AG3_1000query1.fasta
+34 ms
+AG3_1000query2.fasta
+33 ms
+AG3_1000query3.fasta
+34 ms
+AG3_1000query4.fasta
+756 ms
+AG4_100000query0.fasta
+728 ms
+AG4_100000query1.fasta
+777 ms
+AG4_100000query2.fasta
+756 ms
+AG4_100000query3.fasta
+766 ms
+AG4_100000query4.fasta
+113 ms
+AG4_10000query0.fasta
+115 ms
+AG4_10000query1.fasta
+113 ms
+AG4_10000query2.fasta
+111 ms
+AG4_10000query3.fasta
+115 ms
+AG4_10000query4.fasta
+42 ms
+AG4_1000query0.fasta
+47 ms
+AG4_1000query1.fasta
+45 ms
+AG4_1000query2.fasta
+45 ms
+AG4_1000query3.fasta
+45 ms
+AG4_1000query4.fasta
+1007 ms
+AG5_100000query0.fasta
+1009 ms
+AG5_100000query1.fasta
+1033 ms
+AG5_100000query2.fasta
+1020 ms
+AG5_100000query3.fasta
+998 ms
+AG5_100000query4.fasta
+145 ms
+AG5_10000query0.fasta
+145 ms
+AG5_10000query1.fasta
+144 ms
+AG5_10000query2.fasta
+143 ms
+AG5_10000query3.fasta
+145 ms
+AG5_10000query4.fasta
+53 ms
+AG5_1000query0.fasta
+54 ms
+AG5_1000query1.fasta
+57 ms
+AG5_1000query2.fasta
+60 ms
+AG5_1000query3.fasta
+75 ms
+AG5_1000query4.fasta
+1977 ms
+AG6_100000query0.fasta
+1986 ms
+AG6_100000query1.fasta
+1980 ms
+AG6_100000query2.fasta
+1984 ms
+AG6_100000query3.fasta
+1926 ms
+AG6_100000query4.fasta
+294 ms
+AG6_10000query0.fasta
+296 ms
+AG6_10000query1.fasta
+297 ms
+AG6_10000query2.fasta
+296 ms
+AG6_10000query3.fasta
+295 ms
+AG6_10000query4.fasta
+105 ms
+AG6_1000query0.fasta
+104 ms
+AG6_1000query1.fasta
+106 ms
+AG6_1000query2.fasta
+105 ms
+AG6_1000query3.fasta
+104 ms
+AG6_1000query4.fasta
+2999 ms
+AG7_100000query0.fasta
+2848 ms
+AG7_100000query1.fasta
+2977 ms
+AG7_100000query2.fasta
+2840 ms
+AG7_100000query3.fasta
+2985 ms
+AG7_100000query4.fasta
+451 ms
+AG7_10000query0.fasta
+449 ms
+AG7_10000query1.fasta
+449 ms
+AG7_10000query2.fasta
+450 ms
+AG7_10000query3.fasta
+449 ms
+AG7_10000query4.fasta
+158 ms
+AG7_1000query0.fasta
+155 ms
+AG7_1000query1.fasta
+159 ms
+AG7_1000query2.fasta
+158 ms
+AG7_1000query3.fasta
+161 ms
+AG7_1000query4.fasta
+1301 ms
+CV_100000query0.fasta
+1305 ms
+CV_100000query1.fasta
+1283 ms
+CV_100000query2.fasta
+1322 ms
+CV_100000query3.fasta
+1329 ms
+CV_100000query4.fasta
+143 ms
+CV_10000query0.fasta
+157 ms
+CV_10000query1.fasta
+176 ms
+CV_10000query2.fasta
+154 ms
+CV_10000query3.fasta
+162 ms
+CV_10000query4.fasta
+32 ms
+CV_1000query0.fasta
+34 ms
+CV_1000query1.fasta
+28 ms
+CV_1000query2.fasta
+39 ms
+CV_1000query3.fasta
+27 ms
+CV_1000query4.fasta
+833 ms
+EC_100000query0.fasta
+818 ms
+EC_100000query1.fasta
+868 ms
+EC_100000query2.fasta
+793 ms
+EC_100000query3.fasta
+801 ms
+EC_100000query4.fasta
+98 ms
+EC_10000query0.fasta
+111 ms
+EC_10000query1.fasta
+110 ms
+EC_10000query2.fasta
+104 ms
+EC_10000query3.fasta
+112 ms
+EC_10000query4.fasta
+30 ms
+EC_1000query0.fasta
+37 ms
+EC_1000query1.fasta
+33 ms
+EC_1000query2.fasta
+36 ms
+EC_1000query3.fasta
+33 ms
+EC_1000query4.fasta
+12320 ms
+O_100000query0.fasta
+1462 ms
+O_100000query1.fasta
+1371 ms
+O_100000query2.fasta
+6951 ms
+O_100000query3.fasta
+6788 ms
+O_100000query4.fasta
+196 ms
+O_10000query0.fasta
+129 ms
+O_10000query1.fasta
+189 ms
+O_10000query2.fasta
+157 ms
+O_10000query3.fasta
+206 ms
+O_10000query4.fasta
+45 ms
+O_1000query0.fasta
+37 ms
+O_1000query1.fasta
+39 ms
+O_1000query2.fasta
+47 ms
+O_1000query3.fasta
+55 ms
+O_1000query4.fasta
+751 ms
+Sh_100000query0.fasta
+1136 ms
+Sh_100000query1.fasta
+760 ms
+Sh_100000query2.fasta
+938 ms
+Sh_100000query3.fasta
+880 ms
+Sh_100000query4.fasta
+88 ms
+Sh_10000query0.fasta
+109 ms
+Sh_10000query1.fasta
+190 ms
+Sh_10000query2.fasta
+104 ms
+Sh_10000query3.fasta
+114 ms
+Sh_10000query4.fasta
+45 ms
+Sh_1000query0.fasta
+31 ms
+Sh_1000query1.fasta
+32 ms
+Sh_1000query2.fasta
+32 ms
+Sh_1000query3.fasta
+30 ms
+Sh_1000query4.fasta
