@@ -1,0 +1,2640 @@
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 4.86 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1977 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_100000query0.fasta -out outs/AG1_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1052 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_100000query1.fasta -out outs/AG1_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1036 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_100000query2.fasta -out outs/AG1_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1120 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_100000query3.fasta -out outs/AG1_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1054 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_100000query4.fasta -out outs/AG1_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0233 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_10000query0.fasta -out outs/AG1_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0116 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_10000query1.fasta -out outs/AG1_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0119 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_10000query2.fasta -out outs/AG1_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0115 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_10000query3.fasta -out outs/AG1_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0120 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_10000query4.fasta -out outs/AG1_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0263 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_1000query0.fasta -out outs/AG1_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0256 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_1000query1.fasta -out outs/AG1_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0065 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_1000query2.fasta -out outs/AG1_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0020 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_1000query3.fasta -out outs/AG1_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG1/ArtificialGenome1.fasta.sequence, size = 0.009GB
+	Loading db/AG1/ArtificialGenome1.fasta.bwt, size = 0.4GB
+	Loading db/AG1/ArtificialGenome1.fasta.sa, size = 0.02GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG1_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0016 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG1/ArtificialGenome1.fasta -query queries/AG1_1000query4.fasta -out outs/AG1_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 8.42 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2276 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_100000query0.fasta -out outs/AG2_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1716 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_100000query1.fasta -out outs/AG2_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1727 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_100000query2.fasta -out outs/AG2_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2447 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_100000query3.fasta -out outs/AG2_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1994 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_100000query4.fasta -out outs/AG2_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0379 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_10000query0.fasta -out outs/AG2_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0178 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_10000query1.fasta -out outs/AG2_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0163 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_10000query2.fasta -out outs/AG2_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0371 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_10000query3.fasta -out outs/AG2_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0203 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_10000query4.fasta -out outs/AG2_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0062 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_1000query0.fasta -out outs/AG2_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0027 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_1000query1.fasta -out outs/AG2_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0040 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_1000query2.fasta -out outs/AG2_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0018 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_1000query3.fasta -out outs/AG2_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG2/ArtificialGenome2.fasta.sequence, size = 0.01GB
+	Loading db/AG2/ArtificialGenome2.fasta.bwt, size = 0.4GB
+	Loading db/AG2/ArtificialGenome2.fasta.sa, size = 0.03GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG2_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0045 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG2/ArtificialGenome2.fasta -query queries/AG2_1000query4.fasta -out outs/AG2_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 9.29 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2030 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_100000query0.fasta -out outs/AG3_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1287 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_100000query1.fasta -out outs/AG3_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1197 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_100000query2.fasta -out outs/AG3_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1321 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_100000query3.fasta -out outs/AG3_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1225 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_100000query4.fasta -out outs/AG3_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0206 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_10000query0.fasta -out outs/AG3_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0123 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_10000query1.fasta -out outs/AG3_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0120 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_10000query2.fasta -out outs/AG3_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0122 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_10000query3.fasta -out outs/AG3_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0126 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_10000query4.fasta -out outs/AG3_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0131 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_1000query0.fasta -out outs/AG3_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0022 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_1000query1.fasta -out outs/AG3_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0018 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_1000query2.fasta -out outs/AG3_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0019 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_1000query3.fasta -out outs/AG3_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG3/ArtificialGenome3.fasta.sequence, size = 0.02GB
+	Loading db/AG3/ArtificialGenome3.fasta.bwt, size = 0.4GB
+	Loading db/AG3/ArtificialGenome3.fasta.sa, size = 0.04GB
+[HS-BLASTN] done. Time elapsed: 0.10 secs.
+
+
+[HS-BLASTN] Processing queries/AG3_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0019 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG3/ArtificialGenome3.fasta -query queries/AG3_1000query4.fasta -out outs/AG3_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 6.14 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1359 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_100000query0.fasta -out outs/AG4_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1298 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_100000query1.fasta -out outs/AG4_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1263 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_100000query2.fasta -out outs/AG4_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1268 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_100000query3.fasta -out outs/AG4_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1324 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_100000query4.fasta -out outs/AG4_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0182 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_10000query0.fasta -out outs/AG4_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0128 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_10000query1.fasta -out outs/AG4_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0131 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_10000query2.fasta -out outs/AG4_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0131 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_10000query3.fasta -out outs/AG4_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0127 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_10000query4.fasta -out outs/AG4_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0146 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_1000query0.fasta -out outs/AG4_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0018 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_1000query1.fasta -out outs/AG4_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0021 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_1000query2.fasta -out outs/AG4_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0020 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_1000query3.fasta -out outs/AG4_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG4/ArtificialGenome4.fasta.sequence, size = 0.05GB
+	Loading db/AG4/ArtificialGenome4.fasta.bwt, size = 0.4GB
+	Loading db/AG4/ArtificialGenome4.fasta.sa, size = 0.09GB
+[HS-BLASTN] done. Time elapsed: 0.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG4_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0018 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG4/ArtificialGenome4.fasta -query queries/AG4_1000query4.fasta -out outs/AG4_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 8.01 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1400 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_100000query0.fasta -out outs/AG5_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 3.76 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1857 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_100000query1.fasta -out outs/AG5_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1561 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_100000query2.fasta -out outs/AG5_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1495 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_100000query3.fasta -out outs/AG5_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1307 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_100000query4.fasta -out outs/AG5_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0488 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_10000query0.fasta -out outs/AG5_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0544 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_10000query1.fasta -out outs/AG5_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0135 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_10000query2.fasta -out outs/AG5_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0147 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_10000query3.fasta -out outs/AG5_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0177 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_10000query4.fasta -out outs/AG5_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0384 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_1000query0.fasta -out outs/AG5_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0019 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_1000query1.fasta -out outs/AG5_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0348 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_1000query2.fasta -out outs/AG5_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0577 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_1000query3.fasta -out outs/AG5_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG5/ArtificialGenome5.fasta.sequence, size = 0.09GB
+	Loading db/AG5/ArtificialGenome5.fasta.bwt, size = 0.5GB
+	Loading db/AG5/ArtificialGenome5.fasta.sa, size = 0.2GB
+[HS-BLASTN] done. Time elapsed: 0.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG5_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0022 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG5/ArtificialGenome5.fasta -query queries/AG5_1000query4.fasta -out outs/AG5_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 25.58 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2443 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_100000query0.fasta -out outs/AG6_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 27.29 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1453 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_100000query1.fasta -out outs/AG6_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 23.81 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1446 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_100000query2.fasta -out outs/AG6_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 20.91 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1542 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_100000query3.fasta -out outs/AG6_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 20.60 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2288 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_100000query4.fasta -out outs/AG6_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 15.32 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0535 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_10000query0.fasta -out outs/AG6_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 14.65 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0559 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_10000query1.fasta -out outs/AG6_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 14.67 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0258 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_10000query2.fasta -out outs/AG6_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 15.48 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1035 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_10000query3.fasta -out outs/AG6_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 15.38 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0214 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_10000query4.fasta -out outs/AG6_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 17.89 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0832 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_1000query0.fasta -out outs/AG6_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 14.92 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0658 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_1000query1.fasta -out outs/AG6_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 14.60 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0167 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_1000query2.fasta -out outs/AG6_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 16.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0160 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_1000query3.fasta -out outs/AG6_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG6/ArtificialGenome6.fasta.sequence, size = 0.5GB
+	Loading db/AG6/ArtificialGenome6.fasta.bwt, size = 0.8GB
+	Loading db/AG6/ArtificialGenome6.fasta.sa, size = 0.9GB
+[HS-BLASTN] done. Time elapsed: 15.66 secs.
+
+
+[HS-BLASTN] Processing queries/AG6_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0191 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG6/ArtificialGenome6.fasta -query queries/AG6_1000query4.fasta -out outs/AG6_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 34.37 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2672 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_100000query0.fasta -out outs/AG7_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 41.76 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2278 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_100000query1.fasta -out outs/AG7_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 30.12 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1556 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_100000query2.fasta -out outs/AG7_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 45.26 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1424 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_100000query3.fasta -out outs/AG7_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 36.59 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2370 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_100000query4.fasta -out outs/AG7_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 31.98 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1126 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_10000query0.fasta -out outs/AG7_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 30.45 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0241 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_10000query1.fasta -out outs/AG7_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 30.08 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0269 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_10000query2.fasta -out outs/AG7_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 31.60 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0399 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_10000query3.fasta -out outs/AG7_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 29.65 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0378 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_10000query4.fasta -out outs/AG7_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 30.14 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0129 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_1000query0.fasta -out outs/AG7_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 29.57 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0542 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_1000query1.fasta -out outs/AG7_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 30.02 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0125 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_1000query2.fasta -out outs/AG7_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 29.09 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0269 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_1000query3.fasta -out outs/AG7_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/AG7/ArtificialGenome7.fasta.sequence, size = 0.9GB
+	Loading db/AG7/ArtificialGenome7.fasta.bwt, size = 1GB
+	Loading db/AG7/ArtificialGenome7.fasta.sa, size = 2GB
+[HS-BLASTN] done. Time elapsed: 29.23 secs.
+
+
+[HS-BLASTN] Processing queries/AG7_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0120 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/AG7/ArtificialGenome7.fasta -query queries/AG7_1000query4.fasta -out outs/AG7_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 4.51 secs.
+
+
+[HS-BLASTN] Processing queries/CV_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.4778 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_100000query0.fasta -out outs/CV_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2266 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_100000query1.fasta -out outs/CV_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2898 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_100000query2.fasta -out outs/CV_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2725 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_100000query3.fasta -out outs/CV_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2174 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_100000query4.fasta -out outs/CV_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0830 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_10000query0.fasta -out outs/CV_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0271 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_10000query1.fasta -out outs/CV_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0369 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_10000query2.fasta -out outs/CV_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0333 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_10000query3.fasta -out outs/CV_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0844 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_10000query4.fasta -out outs/CV_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0116 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_1000query0.fasta -out outs/CV_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0097 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_1000query1.fasta -out outs/CV_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0017 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_1000query2.fasta -out outs/CV_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0103 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_1000query3.fasta -out outs/CV_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/CV_blast/Canarypox.fasta.sequence, size = 0.0003GB
+	Loading db/CV_blast/Canarypox.fasta.bwt, size = 0.4GB
+	Loading db/CV_blast/Canarypox.fasta.sa, size = 0.0007GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/CV_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0022 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/CV_blast/Canarypox.fasta -query queries/CV_1000query4.fasta -out outs/CV_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 4.17 secs.
+
+
+[HS-BLASTN] Processing queries/EC_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1684 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_100000query0.fasta -out outs/EC_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1647 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_100000query1.fasta -out outs/EC_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1268 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_100000query2.fasta -out outs/EC_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1253 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_100000query3.fasta -out outs/EC_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1272 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_100000query4.fasta -out outs/EC_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0186 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_10000query0.fasta -out outs/EC_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0107 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_10000query1.fasta -out outs/EC_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0117 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_10000query2.fasta -out outs/EC_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0150 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_10000query3.fasta -out outs/EC_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0161 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_10000query4.fasta -out outs/EC_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0107 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_1000query0.fasta -out outs/EC_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0022 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_1000query1.fasta -out outs/EC_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0100 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_1000query2.fasta -out outs/EC_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0037 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_1000query3.fasta -out outs/EC_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/Ecoli_blast/eColi.fasta.sequence, size = 0.005GB
+	Loading db/Ecoli_blast/eColi.fasta.bwt, size = 0.4GB
+	Loading db/Ecoli_blast/eColi.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/EC_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0021 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/Ecoli_blast/eColi.fasta -query queries/EC_1000query4.fasta -out outs/EC_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 4.35 secs.
+
+
+[HS-BLASTN] Processing queries/O_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 11.3765 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_100000query0.fasta -out outs/O_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.3562 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_100000query1.fasta -out outs/O_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1896 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_100000query2.fasta -out outs/O_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2305 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_100000query3.fasta -out outs/O_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 11.3642 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_100000query4.fasta -out outs/O_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0324 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_10000query0.fasta -out outs/O_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0204 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_10000query1.fasta -out outs/O_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0351 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_10000query2.fasta -out outs/O_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0211 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_10000query3.fasta -out outs/O_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0231 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_10000query4.fasta -out outs/O_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0127 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_1000query0.fasta -out outs/O_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0019 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_1000query1.fasta -out outs/O_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0077 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_1000query2.fasta -out outs/O_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0070 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_1000query3.fasta -out outs/O_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/O_blast/Opitutaceae.fasta.sequence, size = 0.007GB
+	Loading db/O_blast/Opitutaceae.fasta.bwt, size = 0.4GB
+	Loading db/O_blast/Opitutaceae.fasta.sa, size = 0.01GB
+[HS-BLASTN] done. Time elapsed: 0.09 secs.
+
+
+[HS-BLASTN] Processing queries/O_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0020 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/O_blast/Opitutaceae.fasta -query queries/O_1000query4.fasta -out outs/O_1000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 4.31 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_100000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2323 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_100000query0.fasta -out outs/Sh_100000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_100000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.2859 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_100000query1.fasta -out outs/Sh_100000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_100000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1812 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_100000query2.fasta -out outs/Sh_100000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_100000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1545 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_100000query3.fasta -out outs/Sh_100000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_100000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.1937 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_100000query4.fasta -out outs/Sh_100000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_10000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0211 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_10000query0.fasta -out outs/Sh_10000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_10000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0381 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_10000query1.fasta -out outs/Sh_10000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_10000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0132 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_10000query2.fasta -out outs/Sh_10000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_10000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0256 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_10000query3.fasta -out outs/Sh_10000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_10000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0121 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_10000query4.fasta -out outs/Sh_10000query4.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_1000query0.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0071 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_1000query0.fasta -out outs/Sh_1000query0.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_1000query1.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0035 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_1000query1.fasta -out outs/Sh_1000query1.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_1000query2.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0039 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_1000query2.fasta -out outs/Sh_1000query2.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_1000query3.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0018 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_1000query3.fasta -out outs/Sh_1000query3.fasta -outfmt 7 -num_threads 4 
+[HS-BLASTN] Loading database.
+	Loading db/S_blast/Sulfolobus.fasta.sequence, size = 0.002GB
+	Loading db/S_blast/Sulfolobus.fasta.bwt, size = 0.4GB
+	Loading db/S_blast/Sulfolobus.fasta.sa, size = 0.005GB
+[HS-BLASTN] done. Time elapsed: 0.08 secs.
+
+
+[HS-BLASTN] Processing queries/Sh_1000query4.fasta.
+	Processing 5 queries.
+
+
+
+[HS-BLASTN] done. Elpased time: 0.0017 secs.
+[HS-BLASTN] 5 queries processed.
+
+[CMD] ./hs-blastn align -db db/S_blast/Sulfolobus.fasta -query queries/Sh_1000query4.fasta -out outs/Sh_1000query4.fasta -outfmt 7 -num_threads 4 

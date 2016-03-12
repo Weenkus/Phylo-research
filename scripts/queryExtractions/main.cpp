@@ -32,6 +32,8 @@ void parseSubstring(string inputFS, string outputFS, int numOfTestSamples, int s
         std::cout << name << " : " << content.substr(0, 10) << std::endl;
     }
 
+    int numberOfQueriesPerFile{20};
+
     // Generate random substrings and print the to the output file
     for(int i{0}; i < numOfTestSamples; ++i) {
         // Create an output file
@@ -39,10 +41,13 @@ void parseSubstring(string inputFS, string outputFS, int numOfTestSamples, int s
         outFileName.append("_" + to_string(subStrLen) + "query" + to_string(i) + ".fasta");    // Generate a name that matches the substr length
         ofstream output(outFileName, std::ios::app);
 
-        // Add fasta header
-        int randNum = rand() % (content.length() - subStrLen - 1) + subStrLen;
-        output << ">vk|" << subStrLen << "|substring|artifical|" << outFileName << endl;
-        output << content.substr(randNum, subStrLen) << endl;
+        for(int j{0}; j < numberOfQueriesPerFile; j++) {
+            // Add fasta header
+            int randNum = rand() % (content.length() - subStrLen - 1) + subStrLen;
+            output << ">vk|" << subStrLen << "|substring|artifical|" << outFileName << endl;
+            output << content.substr(randNum, subStrLen) << endl;
+        }
+
         output.close();
     }
 }

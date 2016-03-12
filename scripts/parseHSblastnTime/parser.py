@@ -1,7 +1,7 @@
 print("Starting to parse the file...")
 
-fName = "/home/weenkus/workspace/queries/hs-blastn-0.0.4+-src/hsblastnResultThread4UNparsed.txt"
-output = open("/home/weenkus/workspace/results/hsblastnThread4.csv", "w+")
+fName = "/home/weenkus/workspace/queries/hs-blastn-0.0.4+-src/hsBlastn_25q_4t.txt"
+output = open("/home/weenkus/workspace/Phylo-research/results/hsblastn/hsBlastn_25q_4t.csv", "w+")
 outString = "preprocessing time, sequence, query length, query numeration, query time\n"
 
 count = 0
