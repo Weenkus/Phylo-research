@@ -1,4 +1,4 @@
-Sequence,Nucleotide number,Packing db,BWT,Fasta table,SA,Total,NCBI,MB seq size,id
+Sequence,Nucleotide number,Packing db,BWT,Fasta table,SA,Time,NCBI,MB seq size,id
 "Canarypox virus, complete genome",359853,0.002963,0.174373,1.28321,0.07089,3.6851,NC_005309.1,0.3651,0
 "Canarypox virus, complete genome",359853,0.008976,0.230844,1.268486,0.284158,3.504893,NC_005309.1,0.3651,0
 "Canarypox virus, complete genome",359853,0.004518,0.175551,1.291483,0.100373,3.276412,NC_005309.1,0.3651,0
