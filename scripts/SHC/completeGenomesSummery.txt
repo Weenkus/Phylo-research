@@ -1,0 +1,608 @@
+
+1. Sulfolobus islandicus LAL14/1, complete genome
+2,465,177 bp circular DNA 
+CP003928.1 GI:478752909
+
+2. Pyrobaculum aerophilum str. IM2, complete genome
+2,222,430 bp circular DNA 
+AE009441.1 GI:18308975
+
+3. Frondihabitans sp. PAMC28766, complete genome
+4,345,897 bp circular DNA 
+CP014513.1 GI:1001851586
+
+4. Actinomyces radicidentis strain CCUG 36733, complete genome
+3,051,613 bp circular DNA 
+CP014228.1 GI:987450852
+
+5. Achromobacter xylosoxidans strain FDAARGOS_150, complete genome
+6,263,082 bp circular DNA 
+CP014028.1 GI:991940861
+
+6. Shigella sonnei strain FDAARGOS_90, complete genome
+4,878,853 bp circular DNA 
+CP014099.1 GI:991845842
+
+7. Piscirickettsia salmonis strain CGR02, complete genome
+3,205,229 bp circular DNA 
+CP013975.1 GI:982195961
+
+8. Piscirickettsia salmonis strain PSCGR01, complete genome
+3,167,361 bp circular DNA 
+CP013944.1 GI:974026485
+
+9. Bordetella pertussis strain ATCC:BAA-1335D-5, complete genome
+4,100,156 bp circular DNA 
+CP014153.1 GI:991852837
+
+10. Escherichia coli strain MRE600, complete genome
+4,827,745 bp circular DNA 
+CP014197.1 GI:984297099
+
+11. Lactobacillus oris strain J-1, complete genome
+3,171,194 bp circular DNA 
+CP014787.1 GI:1012286139
+
+12. Pandoraea pnomenusa strain RB38, complete genome
+5,378,916 bp circular DNA 
+CP007506.3 GI:1008420858
+
+13. Brevibacterium epidermidis strain BS258, complete genome
+3,862,244 bp circular DNA 
+CP014869.1 GI:1013855561
+
+14. Microterricola viridarii strain ERGS5:02, complete genome
+3,689,726 bp circular DNA 
+CP014145.1 GI:984366905
+
+15. Hymenobacter sp. PAMC26628, complete genome
+5,277,381 bp circular DNA 
+CP014304.1 GI:996006667
+
+16. Hymenobacter sp. PAMC 26554, complete genome
+5,244,843 bp circular DNA 
+CP014771.1 GI:1008893959
+
+17. Achromobacter xylosoxidans strain FDAARGOS_162, complete genome
+6,545,536 bp circular DNA 
+CP014065.1 GI:991880038
+
+18. Geobacillus sp. JS12, complete genome
+3,721,489 bp circular DNA 
+CP014749.1 GI:1005659409
+
+19. Bosea sp. PAMC 26642, complete genome
+5,503,156 bp circular DNA 
+CP014301.1 GI:996001510
+
+20. Escherichia coli B strain C3029, complete genome
+4,569,185 bp circular DNA 
+CP014269.1 GI:991965528
+
+21. Marinobacter sp. LQ44, complete genome
+4,435,564 bp circular DNA 
+CP014754.1 GI:1008271296
+
+22. Halocynthiibacter arcticus strain PAMC 20958, complete genome
+4,329,554 bp circular DNA 
+CP014327.1 GI:1000819100
+
+23. Geobacillus sp. C56-T3, complete genome
+3,650,813 bp circular DNA 
+NC_014206.1 GI:297528376
+
+24. Propionibacterium acidipropionici strain ATCC 55737, complete genome
+3,704,826 bp circular DNA 
+CP014352.1 GI:1012282903
+
+25. Candidatus Sulcia muelleri SMDSEM, complete genome
+276,984 bp circular DNA 
+CP001605.1 GI:256009373
+
+26. Geobacillus sp. C56-T3, complete genome
+3,650,813 bp circular DNA 
+CP002050.1 GI:297251628
+
+27. Escherichia coli K-12 strain C3026, complete genome
+4,745,255 bp circular DNA 
+CP014272.1 GI:991975372
+
+28. Escherichia coli B strain C2566, complete genome
+4,478,948 bp circular DNA 
+CP014268.1 GI:991961318
+
+29. Shigella sp. PAMC 28760, complete genome
+4,558,287 bp circular DNA 
+CP014768.1 GI:1008889473
+
+30. Arthrobacter sp. ATCC 21022, complete genome
+4,434,904 bp circular DNA 
+CP014196.1 GI:983715900
+
+31. Bradyrhizobium sp. CCGE-LA001, complete genome
+7,833,499 bp circular DNA 
+CP013949.1 GI:982209562
+
+32. Escherichia coli strain 268-78-1, complete genome
+5,363,962 bp circular DNA 
+CP014092.1 GI:996049046
+
+33. Methylomonas denitrificans strain FJG1, complete genome
+5,172,098 bp circular DNA 
+CP014476.1 GI:998900463
+
+34. Alteromonas macleodii strain D7, complete genome
+4,575,623 bp circular DNA 
+CP014323.1 GI:996042317
+
+35. Lactobacillus paracasei strain KL1, complete genome
+2,918,888 bp circular DNA 
+CP013921.1 GI:974012356
+
+36. Thermoplasma acidophilum DSM 1728 complete genome
+1,564,906 bp circular DNA 
+AL139299.1 GI:30407158
+
+37. Martelella sp. AD-3, complete genome
+4,554,702 bp circular DNA 
+CP014275.1 GI:1002171925
+
+38. Canarypox virus, complete genome
+359,853 bp linear DNA 
+NC_005309.1 GI:40555938
+
+39. Aneurinibacillus sp. XH2, complete genome
+3,664,835 bp circular DNA 
+CP014140.1 GI:982535841
+
+40. Geobacillus thermoleovorans strain KCTC 3570, complete genome
+3,450,609 bp circular DNA 
+CP014335.1 GI:1015427617
+
+41. Escherichia coli JJ1887, complete genome
+5,081,061 bp circular DNA 
+CP014316.1 GI:1006696459
+
+42. Escherichia coli strain ZH193, complete genome
+5,046,610 bp circular DNA 
+CP014497.1 GI:999959188
+
+43. Deerpox virus W-848-83, complete genome
+166,259 bp linear DNA 
+NC_006966.1 GI:62422552
+
+44. Deerpox virus W-1170-84, complete genome
+170,560 bp linear DNA 
+NC_006967.1 GI:62443971
+
+45. Escherichia coli strain MVAST0167, complete genome
+4,806,946 bp circular DNA 
+CP014492.1 GI:999949577
+
+46. Variovorax sp. PAMC 28711, complete genome
+4,316,152 bp circular DNA 
+CP014517.1 GI:1001855716
+
+47. Stenotrophomonas sp. KCTC 12332, complete genome
+4,541,594 bp circular DNA 
+CP014274.1 GI:995997803
+
+48. Clostridium beijerinckii strain NCIMB 14988, complete genome
+6,485,394 bp circular DNA 
+CP010086.2 GI:998535971
+
+49. Fowlpox virus, complete genome
+288,539 bp linear DNA 
+NC_002188.1 GI:9634679
+
+50. Vaccinia virus, complete genome
+194,711 bp linear DNA 
+NC_006998.1 GI:66275797
+
+51. Escherichia coli K-12 strain DHB4, complete genome
+4,546,849 bp circular DNA 
+CP014270.1 GI:991970073
+
+52. Bacillus thuringiensis strain Bt185, complete genome
+5,243,635 bp circular DNA 
+CP014282.1 GI:1008808745
+
+53. Pseudomonas monteilii strain USDA-ARS-USMARC-56711, complete genome
+4,714,359 bp circular DNA 
+CP013997.1 GI:982198872
+
+54. Lysinibacillus sphaericus strain OT4b.25, complete genome
+4,665,575 bp circular DNA 
+CP014643.1 GI:1003321796
+
+55. Escherichia coli strain JEONG-1266, complete genome
+5,478,683 bp circular DNA 
+CP014314.1 GI:991913367
+
+56. Taterapox virus, complete genome
+198,050 bp linear DNA 
+NC_008291.1 GI:113195177
+
+57. Camelpox virus, complete genome
+205,719 bp linear DNA 
+NC_003391.1 GI:18640237
+
+58. Lysinibacillus sphaericus III(3)7, complete genome
+4,663,526 bp circular DNA 
+CP014856.1 GI:1010942488
+
+59. Bacillus subtilis subsp. subtilis strain D12-5, complete genome
+4,142,635 bp circular DNA 
+CP014858.1 GI:1009035473
+
+60. Lumpy skin disease virus NI-2490, complete genome
+150,773 bp linear DNA 
+NC_003027.1 GI:15011550
+
+61. Microbacterium sp. PAMC 28756, complete genome
+3,539,061 bp circular DNA 
+CP014313.1 GI:991918726
+
+62. Thauera humireducens strain SgZ-1, complete genome
+4,171,754 bp circular DNA 
+CP014646.1 GI:1003326260
+
+63. Monkeypox virus Zaire-96-I-16, complete genome
+196,858 bp linear DNA 
+NC_003310.1 GI:17974913
+
+64. Escherichia coli str. K-12 substr. MG1655 strain JW5437-1, complete genome
+4,657,541 bp linear DNA 
+CP014348.1 GI:999847124
+
+65. Sheeppox virus 17077-99, complete genome
+149,955 bp linear DNA 
+NC_004002.1 GI:21426071
+
+66. Goatpox virus Pellor, complete genome
+149,599 bp linear DNA 
+NC_004003.1 GI:21426072
+
+67. Yaba monkey tumor virus, complete genome
+134,721 bp linear DNA 
+NC_005179.1 GI:38229169
+
+68. Pseudomonas koreensis strain D26, complete genome
+6,301,761 bp circular DNA 
+CP014947.1 GI:1013846130
+
+69. Pseudomonas chlororaphis isolate 189, complete genome
+6,837,781 bp circular DNA 
+CP014867.1 GI:1012291606
+
+70. Mucilaginibacter sp. PAMC 26640, complete genome
+5,611,374 bp circular DNA 
+CP014773.1 GI:1008898244
+
+71. Sphingorhabdus sp. M41, complete genome
+3,339,521 bp circular DNA 
+CP014545.1 GI:1004371378
+
+72. Janthinobacterium sp. B9-8, complete genome
+4,726,850 bp circular DNA 
+CP014222.1 GI:984915978
+
+73. Variola virus, complete genome
+185,578 bp linear DNA 
+NC_001611.1 GI:9627521
+
+74. Escherichia coli strain ZH063, complete genome
+5,033,359 bp circular DNA 
+CP014522.1 GI:1001869111
+
+75. Escherichia coli strain G749, complete genome
+4,897,758 bp circular DNA 
+CP014488.1 GI:999944586
+
+76. Ectromelia virus, complete genome
+209,771 bp linear DNA 
+NC_004105.1 GI:22164589
+
+77. Thermus parvatiensis strain RL, complete genome
+1,872,821 bp circular DNA 
+CP014141.1 GI:982539283
+
+78. Escherichia coli str. K-12 substr. MG1655, complete genome
+4,659,625 bp circular DNA 
+CP014225.1 GI:985000614
+
+79. Obesumbacterium proteus strain DSM 2777, complete genome
+5,011,796 bp circular DNA 
+CP014608.1 GI:1004380552
+
+80. Acinetobacter baumannii strain XH859, complete genome
+3,977,071 bp circular DNA 
+CP014539.1 GI:1000993161
+
+81. Bovine papular stomatitis virus, complete genome
+134,431 bp linear DNA 
+NC_005337.1 GI:41057437
+
+82. Achromobacter xylosoxidans strain FDAARGOS_147, complete genome
+6,864,436 bp circular DNA 
+CP014060.1 GI:991866325
+
+83. Klebsiella quasipneumoniae strain ATCC 700603, complete genome
+5,314,161 bp circular DNA 
+CP014696.1 GI:1008881162
+
+84. Serratia fonticola strain GS2, complete genome
+6,100,511 bp circular DNA 
+CP013913.1 GI:974016926
+
+85. Acinetobacter pittii strain AP_882, complete genome
+4,033,345 bp circular DNA 
+CP014477.1 GI:1001859693
+
+86. Pluralibacter gergoviae strain FB2, complete genome
+5,489,680 bp circular DNA 
+CP009450.1 GI:689257448
+
+87. Desulfomicrobium orale DSM 12838, complete genome
+2,783,374 bp circular DNA 
+CP014230.1 GI:987456218
+
+88. Corynebacterium stationis strain ATCC 6872, complete genome
+2,853,666 bp circular DNA 
+CP014279.1 GI:995958478
+
+89. Streptomyces coelicolor A3(2) chromosome, complete genome
+8,667,507 bp linear DNA 
+NC_003888.3 GI:32141095
+
+90. Swinepox virus, complete genome
+146,454 bp linear DNA 
+NC_003389.1 GI:18640086
+
+91. Enterococcus faecium strain ATCC 700221, complete genome
+2,859,123 bp circular DNA 
+CP014449.1 GI:1008420998
+
+92. Pseudomonas aeruginosa DHS01, complete genome
+7,055,752 bp circular DNA 
+CP013993.1 GI:982189197
+
+93. Streptococcus sp. oral taxon 431, complete genome
+2,177,905 bp circular DNA 
+CP014264.1 GI:987460635
+
+94. Zhongshania aliphaticivorans strain SM2, complete genome
+4,204,359 bp circular DNA 
+CP014544.1 GI:1004367713
+
+95. Citrobacter amalonaticus strain FDAARGOS_165, complete genome
+5,030,517 bp circular DNA 
+CP014070.1 GI:991888443
+
+96. Moraxella osloensis strain CCUG 350, complete genome
+2,434,688 bp circular DNA 
+CP014234.1 GI:987465072
+
+97. Providencia stuartii strain FDAARGOS_145, complete genome
+4,305,104 bp circular DNA 
+CP014024.1 GI:991901826
+
+98. Klebsiella pneumoniae subsp. pneumoniae strain RJF293, complete genome
+5,226,330 bp circular DNA 
+CP014008.1 GI:979522909
+
+99. Streptomyces coelicolor A3(2) complete genome
+8,667,507 bp linear DNA 
+AL645882.2 GI:30407153
+
+100. Rabbit fibroma virus, complete genome
+159,857 bp linear DNA 
+NC_001266.1 GI:9633809
+
+101. Aerococcus viridans strain CCUG4311, complete genome
+2,199,877 bp circular DNA 
+CP014164.1 GI:984726517
+
+102. Streptococcus mitis strain SVGS_061, complete genome
+2,167,922 bp circular DNA 
+CP014326.1 GI:992391491
+
+103. Rhodospirillum centenum SW, complete genome
+4,355,543 bp circular DNA 
+CP000613.2 GI:288926859
+
+104. Alteromonas addita strain R10SW13, complete genome
+4,649,146 bp circular DNA 
+CP014322.1 GI:996036872
+
+105. Myxoma virus, complete genome
+161,773 bp linear DNA 
+NC_001132.2 GI:18450236
+
+106. Klebsiella pneumoniae strain KpN06, complete genome
+5,309,013 bp circular DNA 
+CP012992.1 GI:959148571
+
+107. Aerococcus christensenii strain CCUG28831, complete genome
+1,634,920 bp circular DNA 
+CP014159.1 GI:984718273
+
+108. Morganella morganii strain FDAARGOS_172, complete genome
+3,908,044 bp circular DNA 
+CP014026.1 GI:991905634
+
+109. Mycobacterium abscessus strain FLAC054, complete genome
+5,330,954 bp circular DNA 
+CP014961.1 GI:1014897074
+
+110. Sporosarcina psychrophila strain DSM 6497, complete genome
+4,674,191 bp circular DNA 
+CP014616.1 GI:1005378703
+
+111. Pseudomonas azotoformans strain S4, complete genome
+6,859,618 bp circular DNA 
+CP014546.1 GI:1002767533
+
+112. Ralstonia solanacearum strain KACC 10722, complete genome
+3,579,824 bp circular DNA 
+CP014702.1 GI:1004328794
+
+113. Acinetobacter baumannii strain XH857, complete genome
+3,879,636 bp circular DNA 
+CP014540.1 GI:1000996808
+
+114. Desulfovibrio fairfieldensis strain CCUG 45958, complete genome
+3,699,310 bp circular DNA 
+CP014229.1 GI:987453195
+
+115. Selenomonas sp. oral taxon 136 strain F0591, complete genome
+2,442,446 bp circular DNA 
+CP014239.1 GI:987467186
+
+116. Alteromonas stellipolaris strain LMG 21861, complete genome
+4,652,019 bp circular DNA 
+CP013926.1 GI:996015573
+
+117. Bacillus subtilis subsp. inaquosorum strain DE111, complete genome
+4,143,890 bp circular DNA 
+CP013984.1 GI:982205495
+
+118. Acinetobacter baumannii strain XH858, complete genome
+4,172,609 bp circular DNA 
+CP014528.1 GI:1002189272
+
+119. Bacillus sp. SDLI1, complete genome
+4,134,042 bp circular DNA 
+CP013950.1 GI:987469391
+
+120. Alteromonas mediterranea strain U10, complete genome
+4,618,068 bp circular DNA 
+CP013930.1 GI:996023808
+
+121. Alteromonas sp. Mac2, complete genome
+4,666,357 bp circular DNA 
+CP013933.1 GI:996031616
+
+122. Alteromonas mediterranea strain UM8, complete genome
+4,597,489 bp circular DNA 
+CP013928.1 GI:996019659
+
+123. Streptococcus thermophilus strain S9, complete genome
+1,787,436 bp circular DNA 
+CP013939.1 GI:974015040
+
+124. Klebsiella pneumoniae strain KpN01, complete genome
+5,307,114 bp circular DNA 
+CP012987.1 GI:959142797
+
+125. Leptotrichia sp. oral taxon 847, complete genome
+2,194,935 bp circular DNA 
+CP014231.1 GI:987458696
+
+126. Serratia liquefaciens strain FDAARGOS_125, complete genome
+5,284,595 bp circular DNA 
+CP014017.1 GI:991934465
+
+127. Bacillus amyloliquefaciens strain B15, complete genome
+4,006,754 bp circular DNA 
+CP014783.1 GI:1009065180
+
+128. Pseudomonas sp. MS586, complete genome
+6,247,726 bp circular DNA 
+CP014205.1 GI:1008265824
+
+129. Alteromonas sp. Mac1, complete genome
+4,696,291 bp circular DNA 
+CP013932.1 GI:996027729
+
+130. Enterococcus faecium strain 6E6, complete genome
+2,966,909 bp circular DNA 
+CP013994.1 GI:974999704
+
+131. Capnocytophaga haemolytica strain CCUG 32990, complete genome
+2,688,484 bp circular DNA 
+CP014227.1 GI:987448623
+
+132. Citrobacter sp. FDAARGOS_156, complete genome
+4,727,434 bp circular DNA 
+CP014030.1 GI:991949148
+
+133. Acinetobacter baumannii strain YU-R612, complete genome
+4,075,545 bp circular DNA 
+CP014215.1 GI:984881271
+
+134. Campylobacter jejuni strain OD267, complete genome
+1,672,837 bp circular DNA 
+CP014744.1 GI:1004802048
+
+135. Acinetobacter sp. DUT-2, complete genome
+3,844,171 bp circular DNA 
+CP014651.1 GI:1003337460
+
+136. Actinomyces oris strain T14V, complete genome
+3,042,917 bp circular DNA 
+CP014232.1 GI:987462575
+
+137. Desulfovibrio sp. J2, complete genome
+3,966,573 bp circular DNA 
+CP014206.1 GI:998152336
+
+138. Enterococcus gallinarum strain FDAARGOS_163, complete genome
+3,733,228 bp circular DNA 
+CP014067.1 GI:991885134
+
+139. Enterococcus faecalis strain LD33, complete genome
+2,803,429 bp circular DNA 
+CP014949.1 GI:1011599055
+
+140. Bordetella bronchiseptica strain ATCC:BAA-588D-5, complete genome
+5,338,656 bp circular DNA 
+CP014013.1 GI:991923171
+
+141. Streptococcus pyogenes strain MEW427, complete genome
+1,814,455 bp circular DNA 
+CP014138.1 GI:982532632
+
+142. Cronobacter malonaticus LMG 23826, complete genome
+4,294,639 bp circular DNA 
+CP013940.1 GI:973752559
+
+143. Bacillus licheniformis strain HRBL-15TDI7, complete genome
+4,252,398 bp circular DNA 
+CP014781.1 GI:1008876996
+
+144. Bifidobacterium angulatum strain GT102, complete genome
+2,064,639 bp circular DNA 
+CP014241.1 GI:998637992
+
+145. Hafnia alvei strain FDAARGOS_158, complete genome
+4,513,426 bp circular DNA 
+CP014031.1 GI:991953375
+
+146. Cercopithecine herpesvirus 8 isolate CMV 180.92, complete genome
+215,678 bp linear DNA 
+DQ120516.1 GI:73695621
+
+147. Pantoea agglomerans strain FDAARGOS_160, complete genome
+4,050,093 bp circular DNA 
+CP014129.1 GI:991893558
+
+148. Mycobacterium tuberculosis H37Rv complete genome
+4,411,532 bp linear DNA 
+AL123456.3 GI:444893469
+
+149. Enterobacter aerogenes strain FDAARGOS_152, complete genome
+5,317,047 bp circular DNA 
+CP014029.1 GI:991944407
+
+150. Achromobacter denitrificans strain USDA-ARS-USMARC-56712, complete genome
+6,226,215 bp circular DNA 
+CP013923.1 GI:974005670
+
+151. Acinetobacter baumannii strain XH860, complete genome
+3,846,621 bp circular DNA 
+CP014538.1 GI:1000989619
+
+152. Planococcus kocurii strain ATCC 43650, complete genome
+3,472,056 bp circular DNA 
+CP013661.2 GI:984301737
