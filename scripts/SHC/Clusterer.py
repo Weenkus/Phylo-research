@@ -1,32 +1,45 @@
-import SimHash
-from Bio import SeqIO
-from multiprocessing import Pool
-
-MD5_LENGTH_BIT = 128
-MD5_LENGTH_HEX = 32
-HEX_SCALE = 16
-BINARY_SCALE = 2
-UTF_8 = 'utf-8'
 
 
 def main():
-    eColi_strains = parse_fasta_file('completeGnomes.fasta')
+    with open('completeGenomesSimHash8.txt') as f:
+        lines = f.read().splitlines()
 
-    #with Pool() as pool:
-    #    sims = pool.map(SimHash.simhash, eColi_strains.values())
-    for seq_id, seq in eColi_strains.items():
-       eColi_strains[seq_id] = SimHash.simhash(seq)
+    with open('completeGenomesSummery.txt') as f:
+        genomeNames = f.read().splitlines()
 
-    #print(sims)
-    #print(sims.sort())
-    print(eColi_strains)
-    print()
+    genome_key = create_genome_name_key_dictionary(genomeNames)
+    #print(genome_key)
 
-    for k,v in eColi_strains.items():
+    dictionary = make_dictionary(lines)
+    already_gruped = []
+
+    for k, v in dictionary.items():
+        if v in already_gruped:
+            continue
+
+        print('********************************************************************************************************'
+              '****************************************************')
+        key = k.split("|")[3]
+        print(genome_key[key])
         print(k, v)
 
-    #print(hem_distance('00101001010111101011000111100000110000010000001100100001000001010101011111111011110000001101001100011001010111100010010010110110',
-    #                   '00101001011111000010000101100010100000011111001100110010000011010000001011111110100010000001110110011000010011101110011110111110'))
+        for k2, v2 in dictionary.items():
+            if v == v2 or v2 in already_gruped:
+                continue
+
+            if hem_distance(v, v2) <= 3:
+                already_gruped.append(v2)
+                key = k2.split("|")[3]
+                print(genome_key[key])
+                print(k2, v2)
+
+
+def make_dictionary(list):
+    dictionary = {}
+    for v in list:
+        dictionary[v.split(' ')[0]] = v.split(' ')[1]
+
+    return dictionary
 
 
 def hem_distance(str1, str2):
@@ -39,14 +52,19 @@ def hem_distance(str1, str2):
     return diffs
 
 
-def parse_fasta_file(file_path):
-    fasta_sequences = SeqIO.parse(open(file_path), 'fasta')
-    eColi_strains = {}
-    for fasta in fasta_sequences:
-        name, sequence = fasta.id, str(fasta.seq)
-        eColi_strains[name] = sequence
+def create_genome_name_key_dictionary(genomeNames):
+    d = {}
+    i = 0
+    for v in genomeNames:
+        if i == 0:
+            name = v
+        if i == 2:
+            d[v.split(" ")[0]] = name
+        if i == 3:
+            i = -1
+        i += 1
 
-    return eColi_strains
+    return d
 
 if __name__ == '__main__':
     main()

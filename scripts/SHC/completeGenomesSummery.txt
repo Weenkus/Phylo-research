@@ -1,4 +1,3 @@
-
 1. Sulfolobus islandicus LAL14/1, complete genome
 2,465,177 bp circular DNA 
 CP003928.1 GI:478752909
