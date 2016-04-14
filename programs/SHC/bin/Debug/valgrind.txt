@@ -1,0 +1,107 @@
+==19639== Memcheck, a memory error detector
+==19639== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==19639== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==19639== Command: ./SHC ../../../../datasets/eColiStrains.fasta
+==19639== 
+==19639== Invalid read of size 4
+==19639==    at 0x41116E: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:31)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639==  Address 0x5cb9280 is 0 bytes after a block of size 512 alloc'd
+==19639==    at 0x4C2B0D8: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==19639==    by 0x412699: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==19639==    by 0x4124C6: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:360)
+==19639==    by 0x4121E7: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==19639==    by 0x411FFA: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:185)
+==19639==    by 0x411CB0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:136)
+==19639==    by 0x411855: std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) (stl_vector.h:291)
+==19639==    by 0x410FC1: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:11)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639== 
+==19639== Invalid write of size 4
+==19639==    at 0x411173: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:31)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639==  Address 0x5cb9280 is 0 bytes after a block of size 512 alloc'd
+==19639==    at 0x4C2B0D8: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==19639==    by 0x412699: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==19639==    by 0x4124C6: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:360)
+==19639==    by 0x4121E7: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==19639==    by 0x411FFA: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:185)
+==19639==    by 0x411CB0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:136)
+==19639==    by 0x411855: std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) (stl_vector.h:291)
+==19639==    by 0x410FC1: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:11)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639== 
+==19639== Invalid read of size 4
+==19639==    at 0x411150: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:29)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639==  Address 0x5cb9288 is 8 bytes after a block of size 512 alloc'd
+==19639==    at 0x4C2B0D8: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==19639==    by 0x412699: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==19639==    by 0x4124C6: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:360)
+==19639==    by 0x4121E7: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==19639==    by 0x411FFA: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:185)
+==19639==    by 0x411CB0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:136)
+==19639==    by 0x411855: std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) (stl_vector.h:291)
+==19639==    by 0x410FC1: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:11)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639== 
+==19639== Invalid write of size 4
+==19639==    at 0x411155: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:29)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639==  Address 0x5cb9288 is 8 bytes after a block of size 512 alloc'd
+==19639==    at 0x4C2B0D8: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==19639==    by 0x412699: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==19639==    by 0x4124C6: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:360)
+==19639==    by 0x4121E7: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==19639==    by 0x411FFA: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (stl_vector.h:185)
+==19639==    by 0x411CB0: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (stl_vector.h:136)
+==19639==    by 0x411855: std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) (stl_vector.h:291)
+==19639==    by 0x410FC1: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:11)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+==19639== 
+
+valgrind: m_mallocfree.c:303 (get_bszB_as_is): Assertion 'bszB_lo == bszB_hi' failed.
+valgrind: Heap block lo/hi size mismatch: lo = 576, hi = 18446743742997069300.
+This is probably caused by your program erroneously writing past the
+end of a heap block and corrupting heap metadata.  If you fix any
+invalid writes reported by Memcheck, this assertion failure will
+probably go away.  Please try that before reporting this as a bug.
+
+
+host stacktrace:
+==19639==    at 0x38083F98: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x380840B4: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x38084241: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x38091441: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x38050CF3: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x38050EBB: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x38051089: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x380D4F1B: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+==19639==    by 0x380E38D6: ??? (in /usr/lib/valgrind/memcheck-amd64-linux)
+
+sched status:
+  running_tid=1
+
+Thread 1: status = VgTs_Runnable (lwpid 19639)
+==19639==    at 0x4C2B0D8: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==19639==    by 0x4F57BAC: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) (basic_string.tcc:223)
+==19639==    by 0x4F57D98: _M_construct_aux<char const*> (basic_string.h:195)
+==19639==    by 0x4F57D98: _M_construct<char const*> (basic_string.h:214)
+==19639==    by 0x4F57D98: basic_string (basic_string.h:416)
+==19639==    by 0x4F57D98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::substr(unsigned long, unsigned long) const (basic_string.h:2295)
+==19639==    by 0x411032: SimHash::sim_hash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, SimHash::HashAlgorithm) (SimHash.cpp:14)
+==19639==    by 0x40EBFE: main (main.cpp:18)
+
+
+Note: see also the FAQ in the source distribution.
+It contains workarounds to several common problems.
+In particular, if Valgrind aborted or crashed after
+identifying problems in your program, there's a good chance
+that fixing those problems will prevent Valgrind aborting or
+crashing, especially if it happened in m_mallocfree.c.
+
+If that doesn't help, please report this bug to: www.valgrind.org
+
+In the bug report, send all the above text, the valgrind
+version, and what OS and version you are using.  Thanks.
+

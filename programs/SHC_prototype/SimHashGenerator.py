@@ -10,7 +10,7 @@ UTF_8 = 'utf-8'
 
 
 def main():
-    eColi_strains = parse_fasta_file('../../datasets/completeGnomes.fasta')
+    eColi_strains = parse_fasta_file('../../datasets/eColiStrains.fasta')
 
     #with Pool() as pool:
     #    sims = pool.map(SimHash.simhash, eColi_strains.values())
