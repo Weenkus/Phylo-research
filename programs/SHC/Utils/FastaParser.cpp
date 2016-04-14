@@ -26,7 +26,7 @@ std::unordered_map<std::string, std::string> FastaParser::parse_fasta_file(std::
 
         if (line[0] == '>') {
             if(!id.empty()) {
-                std::cout << id << " : " << dna_sequence.substr(0, 25) << std::endl;
+                //std::cout << id << " : " << dna_sequence.substr(0, 25) << std::endl;
                 id_dna_map[id] = dna_sequence;
             }
 
