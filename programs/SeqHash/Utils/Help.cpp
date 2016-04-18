@@ -7,8 +7,8 @@
 using namespace std;
 
 void Help::print_help() {
-    cout << "\nSHC v0.1 (Alpha) made by Vinko Kodzoman." << endl;
-    cout << "SHC algorithm uses simhash to compute similarity between genomes." << endl << endl;
+    cout << "\nSeqHash v0.1 (Alpha) made by Vinko Kodzoman." << endl;
+    cout << "SeqHash algorithm uses simhash to compute similarity between genomes." << endl << endl;
 
     cout << "-in                 -       Input file path in the format of fasta files. Fasta file can have multiple sequences.\n";
     cout << "-out                -       Output file path. All simhash values with sequence ids will be written inside.\n";
