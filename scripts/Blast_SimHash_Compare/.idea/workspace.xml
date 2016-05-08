@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Blast_SimHash_Compare$Blast_SQ_generate_compare_file.coverage" NAME="Blast_SQ_generate_compare_file Coverage Results" MODIFIED="1462730320269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blast_SimHash_Compare$Blast_SQ_generate_compare_file.coverage" NAME="Blast_SQ_generate_compare_file Coverage Results" MODIFIED="1462733960868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,8 +28,38 @@
       <file leaf-file-name="Blast_SQ_generate_compare_file.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blast_SQ_generate_compare_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0851735">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.36908516">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ENSP233_Spooky_3_compare.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ENSP233_Spooky_3_compare.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32533" column="0" selection-start-line="32533" selection-start-column="0" selection-end-line="32533" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ENSP233_Native_3_compare.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ENSP233_Native_3_compare.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32234" column="0" selection-start-line="32234" selection-start-column="0" selection-end-line="32234" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ENSP233_Native_3_compare.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ENSP233_Native_3_compare.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32533" column="0" selection-start-line="32533" selection-start-column="0" selection-end-line="32533" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +131,7 @@
         <option value="$PROJECT_DIR$/ENSP233_Boost_3_compare.csv" />
         <option value="$PROJECT_DIR$/ENSP1146_Boost_3_compare.csv" />
         <option value="$PROJECT_DIR$/ENSP1146_Boost_3_compare.txt" />
+        <option value="$PROJECT_DIR$/ENSP233_Native_3_compare.txt" />
         <option value="$PROJECT_DIR$/Blast_SQ_generate_compare_file.py" />
       </list>
     </option>
@@ -468,10 +499,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ENSP233_Spooky_3_compare.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32533" column="0" selection-start-line="32533" selection-start-column="0" selection-end-line="32533" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENSP233_Native_3_compare.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32533" column="0" selection-start-line="32533" selection-start-column="0" selection-end-line="32533" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENSP233_Native_3_compare.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32234" column="0" selection-start-line="32234" selection-start-column="0" selection-end-line="32234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blast_SQ_generate_compare_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0851735">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.36908516">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>

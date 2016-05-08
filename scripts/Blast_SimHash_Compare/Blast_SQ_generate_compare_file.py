@@ -1,17 +1,17 @@
 HASH_LENGTH = 64
 SEQUENCE_ID_LEN = 60
-HASH = 'Boost'
-WINDOWS_SIZE = 2
+HASH = 'Spooky'
+WINDOWS_SIZE = 3
 
 
 blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
                        "ENSP233/ENSP00000000233_hits_blast.txt"
 
 hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
-                      "ENSP233/ENSP233_hits_boost_2.txt"
+                      "ENSP233/ENSP233_hits_spooky_3.txt"
 
-output_file_path = "ENSP233_Boost_2_compare.txt"
-csv_comparison = "ENSP233_Boost_2_compare.csv"
+output_file_path = "ENSP233_Spooky_3_compare.txt"
+csv_comparison = "ENSP233_Spooky_3_compare.csv"
 
 blast_hits_file = open(blast_hits_file_path, "r")
 hash_hits_file = open(hash_hits_file_path, "r")
