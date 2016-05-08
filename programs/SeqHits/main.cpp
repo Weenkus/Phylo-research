@@ -101,7 +101,7 @@ int main(int argc, char *argv[]) {
                 cout << (*target).first << (*element).first;
 
                 int ham_distance = hamming_distance((*target).second, (*element).second);
-                std::string value = (*target).first + " | " + (*element).first + " | " + to_string(ham_distance);
+                std::string value = (*target).first + " " + (*element).first + " " + to_string(ham_distance);
 
                 hits_results.push_back(std::make_pair(ham_distance, value));
 
