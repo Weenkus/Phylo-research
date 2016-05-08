@@ -96,8 +96,9 @@ int main(int argc, char *argv[]) {
                 string sequance_hash = SimHash::sim_hash((*element).second, sliding_window_size, hash_algorithm);
                 cout << sequance_hash << endl;
 
+                #pragma omp critical
                 if(output_file_path != NULL) {
-                    output_file_handle << (*element).first << endl << sequance_hash << endl << endl;
+                    output_file_handle << ">" <<(*element).first << endl << sequance_hash << endl;
                 }
             }
         }
