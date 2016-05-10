@@ -10,7 +10,8 @@ UTF_8 = 'utf-8'
 
 
 def main():
-    eColi_strains = parse_fasta_file('../../datasets/eColiStrains.fasta')
+    #eColi_strains = parse_fasta_file('../../datasets/eColiStrains.fasta')
+    eColi_strains = parse_fasta_file('simulatedSeqs.fa')
 
     #with Pool() as pool:
     #    sims = pool.map(SimHash.simhash, eColi_strains.values())

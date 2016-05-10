@@ -6,7 +6,7 @@ HEX_SCALE = 16
 BINARY_SCALE = 2
 UTF_8 = 'utf-8'
 
-SLIDING_WINDOW_LENGTH = 4
+SLIDING_WINDOW_LENGTH = 3
 
 
 def simhash(text):

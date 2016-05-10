@@ -1,13 +1,13 @@
 
 
 def main():
-    with open('completeGenomesSimHash8.txt') as f:
+    with open('RobertSimHash.txt') as f:
         lines = f.read().splitlines()
 
-    with open('completeGenomesSummery.txt') as f:
-        genomeNames = f.read().splitlines()
+    #with open('completeGenomesSummery.txt') as f:
+    #    genomeNames = f.read().splitlines()
 
-    genome_key = create_genome_name_key_dictionary(genomeNames)
+    #genome_key = create_genome_name_key_dictionary(genomeNames)
     #print(genome_key)
 
     dictionary = make_dictionary(lines)
@@ -20,7 +20,7 @@ def main():
         print('********************************************************************************************************'
               '****************************************************')
         key = k.split("|")[3]
-        print(genome_key[key])
+        #print(genome_key[key])
         print(k, v)
 
         for k2, v2 in dictionary.items():
@@ -30,7 +30,7 @@ def main():
             if hem_distance(v, v2) <= 3:
                 already_gruped.append(v2)
                 key = k2.split("|")[3]
-                print(genome_key[key])
+                #print(genome_key[key])
                 print(k2, v2)
 
 
