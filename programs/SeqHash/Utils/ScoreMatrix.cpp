@@ -9,7 +9,7 @@ ScoreMatrix::ScoreMatrix(std::string file_path) {
 }
 
 
-int ScoreMatrix::get_value(char original_amino_acid, char mutated_amino_acid) const {
+int ScoreMatrix::get_value(char original_amino_acid, char mutated_amino_acid) {
     return _score_matrix[_amino_acid_index[original_amino_acid]][_amino_acid_index[mutated_amino_acid]];
 }
 
@@ -25,7 +25,7 @@ void ScoreMatrix::print() {
 }
 
 
-int ScoreMatrix::get_mutation_score(std::string original_sequence, std::string mutated_sequence) const {
+int ScoreMatrix::get_mutation_score(std::string original_sequence, std::string mutated_sequence) {
     int mutation_score{0};
     for(int i{0}; i < original_sequence.length(); ++i) {
         mutation_score += get_value(original_sequence.at(i), mutated_sequence.at(i));
@@ -34,7 +34,7 @@ int ScoreMatrix::get_mutation_score(std::string original_sequence, std::string m
     return mutation_score;
 }
 
-std::vector<std::string> ScoreMatrix::get_mutation_sequences(std::string sequence, int mutation_threshold) const {
+std::vector<std::string> ScoreMatrix::get_mutation_sequences(std::string sequence, int mutation_threshold) {
     std::vector<std::string> mutated_sequences;
 
     for(int i{0}; i < sequence.length(); ++i) {
@@ -43,7 +43,7 @@ std::vector<std::string> ScoreMatrix::get_mutation_sequences(std::string sequenc
             std::string mutated_sequence = sequence;
             mutated_sequence[i] = amino_acid;
 
-            if(get_mutation_score(sequence, mutated_sequence) <= mutation_threshold)
+            if(get_mutation_score(sequence, mutated_sequence) >= mutation_threshold)
                 mutated_sequences.push_back(mutated_sequence);
         }
     }

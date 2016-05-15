@@ -1,17 +1,18 @@
 HASH_LENGTH = 64
-SEQUENCE_ID_LEN = 60
+SEQUENCE_ID_LENGTH = 60
 HASH = 'Boost'
 WINDOWS_SIZE = 3
+MUTATION_THRESHOLD = 12
 
 
 blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
                        "ENSP1146/ENSP00000001146_hits_blast.txt"
 
 hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
-                      "ENSP1146/ENSP1146_hits_boost_3.txt"
+                      "ENSP1146/ENSP1146_hits_boost_3_tr_12.txt"
 
-output_file_path = "ENSP1146_boost_3_compare.txt"
-csv_comparison = "ENSP1146_boost_3_compare.csv"
+output_file_path = "ENSP1146_boost_3_compare_tr_12.txt"
+csv_comparison = "ENSP1146_boost_3_compare_tr_12.csv"
 
 blast_hits_file = open(blast_hits_file_path, "r")
 hash_hits_file = open(hash_hits_file_path, "r")
@@ -23,7 +24,7 @@ hash_hits_list = hash_hits_file.read().split("\n")
 
 
 porgess = 0
-csv_string = 'window_size,hash,ham_distance,similarity,error,blast_output,bitscore,eValue'
+csv_string = 'window_size,hash,ham_distance,similarity,error,blast_output,bitscore,eValue,mutation_threshold'
 print(csv_string, file=csv_file)
 
 for blast_hit in blast_hits_list:
@@ -40,8 +41,8 @@ for blast_hit in blast_hits_list:
 
             sequence_ids = blast_string_chunks[0] + " " + blast_string_chunks[1]
 
-            if len(sequence_ids) < SEQUENCE_ID_LEN:
-                while len(sequence_ids) < SEQUENCE_ID_LEN:
+            if len(sequence_ids) < SEQUENCE_ID_LENGTH:
+                while len(sequence_ids) < SEQUENCE_ID_LENGTH:
                     sequence_ids += " "
 
             sim = str(float(HASH_LENGTH-int(hash_string_chunks[2]))/HASH_LENGTH*100)
@@ -56,7 +57,8 @@ for blast_hit in blast_hits_list:
 
             print(out_string, file=output_file)
 
-            csv_string = '{window_size},{hash},{ham_distance},{similarity},{error:2f},{blast_output},{bitmap},{eValue}'.format(
+            csv_string = '{window_size},{hash},{ham_distance},{similarity},{error:2f},{blast_output},' \
+                         '{bitmap},{eValue},{mutation_threshold}'.format(
                 window_size=WINDOWS_SIZE,
                 hash=HASH,
                 sequence_ids=sequence_ids,
@@ -65,7 +67,8 @@ for blast_hit in blast_hits_list:
                 similarity=sim,
                 blast_output=blast_string_chunks[2],
                 bitmap=blast_string_chunks[-1],
-                eValue=blast_string_chunks[-2]
+                eValue=blast_string_chunks[-2],
+                mutation_threshold=MUTATION_THRESHOLD
             )
 
             print(csv_string, file=csv_file)
