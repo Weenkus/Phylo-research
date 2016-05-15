@@ -12,7 +12,7 @@ class Help {
 
 public:
 
-    static void print_help();
+    static void print();
 
 };
 

@@ -11,6 +11,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <boost/algorithm/string.hpp>
 
 
 class ScoreMatrix {
@@ -18,12 +19,26 @@ class ScoreMatrix {
 public:
     ScoreMatrix(std::string file_path);
 
-    int get_value(int x, int y);
+    int get_value(char original_amino_acid, char mutated_amino_acid) const;
+    const std::vector<char> get_amino_acids() const { return _amino_acids; }
+    int get_mutation_score(std::string original_sequence, std::string mutated_sequence) const;
+
+    std::vector<std::string> get_mutation_sequences(std::string sequence, int mutation_threshold) const;
+
+    void print();
 
 
 private:
     std::vector<std::vector<int>> _score_matrix;
-    std::map<char, int> _amino_acid_index {{'A', 0}, {'R', 1}, {'N', 2}, {'D', 3}};
+    std::map<char, int> _amino_acid_index {
+            {'A', 0}, {'R', 1}, {'N', 2}, {'D', 3}, {'C', 4}, {'Q', 5}, {'E', 6}, {'G', 7}, {'H', 8}, {'I', 9},
+            {'L', 10}, {'K', 11}, {'M', 12}, {'F', 13}, {'P', 14}, {'S', 15}, {'T', 16}, {'W', 17}, {'Y', 18},
+            {'V', 19}, {'B', 20}, {'Z', 21}, {'X', 22}, {'*', 23}
+    };
+    std::vector<char> _amino_acids {
+            'A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L',
+            'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V', 'B', 'Z', 'X'
+    };
 
     std::vector<std::vector<int>> read_matrix(std::string file_path);
 

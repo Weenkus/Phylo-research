@@ -6,6 +6,7 @@
 #define SHC_SIMHASH_H
 
 #include "HashFunctions/SpookyV2/SpookyV2.h"
+#include "Utils/ScoreMatrix.h"
 
 #include <vector>
 #include <string>
@@ -20,7 +21,8 @@ public:
 
     enum class HashAlgorithm { Boost, Spooky, Native };
 
-    static std::string sim_hash(std::string sequence, size_t sliding_window_length, HashAlgorithm hash_algorithm);
+    static std::string sim_hash(std::string sequence, size_t sliding_window_length,
+                                HashAlgorithm hash_algorithm, int mutation_threshold);
 
 };
 
