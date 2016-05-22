@@ -19,6 +19,7 @@ std::unordered_map<std::string, std::string> FastaParser::parse_fasta_file(std::
 
     std::string line, id, dna_sequence;
     std::unordered_map<std::string, std::string> id_dna_map;
+    std::cout << std::endl;
     while (std::getline(fasta_file_handle, line)) {
 
         if(line.empty())
@@ -36,6 +37,8 @@ std::unordered_map<std::string, std::string> FastaParser::parse_fasta_file(std::
             dna_sequence += line;
         }
     }
+    std::cout << id << std::endl;
+    id_dna_map[id] = dna_sequence;
 
     fasta_file_handle.close();
     return id_dna_map;

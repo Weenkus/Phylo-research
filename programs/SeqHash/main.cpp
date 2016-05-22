@@ -19,7 +19,7 @@ const int MIN_NUM_OF_ARUGMENTS{3};
 
 bool is_valid_user_input(int argc);
 void invalid_number_of_arguments_print(int argc, char *argv[]);
-void start(int argc, char *argv[]);
+void SimHash_start(int argc, char **argv);
 
 
 int main(int argc, char *argv[]) {
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     if (is_valid_user_input(argc)) {
         invalid_number_of_arguments_print(argc, argv);
     } else {
-        start(argc, argv);
+        SimHash_start(argc, argv);
         return 0;
     }
 
@@ -53,8 +53,8 @@ void invalid_number_of_arguments_print(int argc, char *argv[]) {
 }
 
 
-void start(int argc, char *argv[]) {
-    char* input_file_path, *hash, *output_file_path;
+void SimHash_start(int argc, char **argv) {
+    char *input_file_path {nullptr}, *hash{nullptr}, *output_file_path{nullptr};
     int num_threads {1}, sliding_window_size{8}, mutation_threshold{0};
     SimHash::HashAlgorithm hash_algorithm = SimHash::HashAlgorithm::Boost;  // Default hash functions
 
@@ -93,10 +93,10 @@ void start(int argc, char *argv[]) {
 
     // Print program atributes
     cout << endl << endl;
-    if(input_file_path != NULL) cout << "Input file: " << input_file_path << endl;
-    if(output_file_path != NULL ) cout << "Output file: " << output_file_path << endl;
+    if(input_file_path != nullptr) cout << "Input file: " << input_file_path << endl;
+    if(output_file_path != nullptr ) cout << "Output file: " << output_file_path << endl;
     cout << "Number of threads: " << num_threads << endl;
-    if(hash != NULL ) cout << "Hash function: " << hash << endl;
+    if(hash != nullptr ) cout << "Hash function: " << hash << endl;
     cout << "Sliding window length: " << sliding_window_size << endl << endl;
     ofstream output_file_handle(output_file_path);
 

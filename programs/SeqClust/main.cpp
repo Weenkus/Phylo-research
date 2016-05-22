@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
 
         // Parse user arguments
     } else {
-        char *input_file_path, *output_file_path;
+        char *input_file_path{nullptr}, *output_file_path{nullptr};
         int distance{1};
 
         std::cout << argv[0] << " ";
