@@ -32,18 +32,19 @@ void Hits::run() {
         std::set<std::string> _buffered_hash_results(_hash_results);
         _hash_results.clear();
 
+        std::cout << "Iteration remaining: " << _remaining_iterations << std::endl;
+
         for(auto target_sequence : _buffered_hash_results) {
+            std::cout << "Target sequence: " << target_sequence << std::endl;
             compute_hits(target_sequence);
         }
-
-        std::cout << "Iteration remaining: " << _remaining_iterations << std::endl;
 
         --_remaining_iterations;
     }
 }
 
 void Hits::compute_hits(std::string target_sequence_hash) {
-    #pragma omp parallel num_threads(_num_threads)
+
     {
         double start = omp_get_wtime();
 
@@ -51,19 +52,16 @@ void Hits::compute_hits(std::string target_sequence_hash) {
         int thread_id = omp_get_thread_num();
         int number_of_threads = omp_get_num_threads();
 
-        #pragma omp single
+        /*#pragma omp single
         {
             std::cout << "Using " << number_of_threads << " threads to compute similarity against db of size: ";
             std::cout << _db_sequence_hashes.size() << std::endl;
-        }
+        }*/
 
-        std::vector<std::pair<int, std::string>> round_results;
+        std::set<std::pair<int, std::string>> round_results;
 
         for (auto element = _db_sequence_hashes.begin();
              element != _db_sequence_hashes.end(); ++element, thread_count++) {
-
-            if (is_not_valid_thread_id(thread_count, number_of_threads, thread_id))
-                continue;
 
             int ham_distance = hamming_distance(target_sequence_hash, (*element).second);
 
@@ -73,7 +71,7 @@ void Hits::compute_hits(std::string target_sequence_hash) {
 
                 _hits_final_results.push_back(std::make_pair(ham_distance, target_db_comparison_string));
             } else {
-                round_results.push_back(std::make_pair(ham_distance, (*element).second));
+                round_results.insert(std::make_pair(ham_distance, (*element).second));
             };
 
         }
@@ -82,13 +80,16 @@ void Hits::compute_hits(std::string target_sequence_hash) {
         if (is_last_hits_round()) {
             std::cout << "Hits created in " << (omp_get_wtime()-start) << " seconds." << std::endl;
         } else {
-            std::stable_sort(round_results.begin(), round_results.end());
 
             int number_of_next_round_sequences{0};
             for(auto result : round_results) {
 
-                if (result.first > _from_distance && result.first < _to_distance &&
-                        number_of_next_round_sequences < _max_sequences) {
+                if (is_not_valid_thread_id(thread_count, number_of_threads, thread_id))
+                    continue;
+
+                if (result.first > _from_distance && result.first < _to_distance && number_of_next_round_sequences < _max_sequences) {
+
+                    //std::cout << result.second << std::endl;
 
                     _hash_results.insert(result.second);
                     ++number_of_next_round_sequences;
@@ -131,7 +132,7 @@ bool Hits::is_not_valid_thread_id(size_t thread_count, int number_of_threads, in
 }
 
 bool Hits::is_last_hits_round() {
-    return _remaining_iterations == 0;
+    return _remaining_iterations == 1;
 }
 
 

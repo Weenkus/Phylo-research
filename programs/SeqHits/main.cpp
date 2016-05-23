@@ -105,7 +105,9 @@ void start_hits(int argc, char *argv[]) {
     unordered_map<string, string> target_sequences = FastaParser::parse_fasta_file(input_file_path);
     cout << "\nParsing database and input files done in " << (clock()-start) / CLOCKS_PER_SEC << " seconds." << endl;
 
-    Hits seqHits(db_sequences, target_sequences, num_threads, from_distance, to_distance, chain_number, log_chain, max_sequences);
+    Hits seqHits(db_sequences, target_sequences, num_threads, from_distance,
+                 to_distance, chain_number, log_chain, max_sequences);
+
     seqHits.run();
     seqHits.write_results_to_file(output_file_path);
 
