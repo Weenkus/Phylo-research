@@ -10,7 +10,6 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
                               HashAlgorithm hash_algorithm, int mutation_threshold) {
 
     std::vector<int> sim_hash_bit_array (HASH_LENGTH, 0);
-    ScoreMatrix score_matrix("../../Utils/ScoreMatrices/BLOSUM62.txt");
 
     for(unsigned int i = 0; i < sequence.length() - sliding_window_length; i++) {
         std::string window_string = sequence.substr(i, sliding_window_length);
@@ -19,8 +18,11 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
         sequence_samples.push_back(window_string);
 
         if(mutation_threshold != 0) {
-            std::vector<std::string> mutated_sequences =
-                    score_matrix.get_mutation_sequences(window_string, mutation_threshold);
+            ScoreMatrix score_matrix("../../Utils/ScoreMatrices/BLOSUM62.txt");
+
+            std::vector<std::string> mutated_sequences = score_matrix.get_mutation_sequences(
+                    window_string, mutation_threshold
+            );
 
             sequence_samples.insert(sequence_samples.end(), mutated_sequences.begin(), mutated_sequences.end());
         }
