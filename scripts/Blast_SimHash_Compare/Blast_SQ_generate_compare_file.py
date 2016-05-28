@@ -1,18 +1,18 @@
 HASH_LENGTH = 64
 SEQUENCE_ID_LENGTH = 60
-HASH = 'Boost'
+HASH = 'Blash_12'
 WINDOWS_SIZE = 3
-MUTATION_THRESHOLD = 12
+MUTATION_THRESHOLD = 0
 
 
-blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
-                       "ENSP1146/ENSP00000001146_hits_blast.txt"
+blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
+                       "ENSP1008/ENSP00000001008_hits_blast.txt"
 
-hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison/" \
-                      "ENSP1146/ENSP1146_hits_boost_3_tr_12.txt"
+hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
+                      "ENSP1008/ENSP1008_blash_3_12_hits_results.txt"
 
-output_file_path = "ENSP1146_boost_3_compare_tr_12.txt"
-csv_comparison = "ENSP1146_boost_3_compare_tr_12.csv"
+output_file_path = "ENSP1008_blash_12_3_compare.txt"
+csv_comparison = "ENSP1008_blash_12_3_compare.csv"
 
 blast_hits_file = open(blast_hits_file_path, "r")
 hash_hits_file = open(hash_hits_file_path, "r")
@@ -33,6 +33,8 @@ for blast_hit in blast_hits_list:
     print(porgess, len(blast_hits_list))
 
     for hash_hit in hash_hits_list:
+
+
 
         blast_string_chunks = blast_hit.split("\t")
         hash_string_chunks = hash_hit.split(" ")

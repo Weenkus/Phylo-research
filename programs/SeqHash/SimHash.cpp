@@ -6,19 +6,20 @@
 
 const int HASH_LENGTH{64};
 
-std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length,
-                              HashAlgorithm hash_algorithm, int mutation_threshold) {
+std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length, HashAlgorithm hash_algorithm,
+                              int mutation_threshold, std::string score_matrix_path, Blash blash) {
 
     std::vector<int> sim_hash_bit_array (HASH_LENGTH, 0);
 
     for(unsigned int i = 0; i < sequence.length() - sliding_window_length; i++) {
+
         std::string window_string = sequence.substr(i, sliding_window_length);
 
         std::vector<std::string> sequence_samples;
         sequence_samples.push_back(window_string);
 
         if(mutation_threshold != 0) {
-            ScoreMatrix score_matrix("../../Utils/ScoreMatrices/BLOSUM62.txt");
+            ScoreMatrix score_matrix(score_matrix_path);
 
             std::vector<std::string> mutated_sequences = score_matrix.get_mutation_sequences(
                     window_string, mutation_threshold
@@ -28,12 +29,12 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
         }
 
         for(auto sequence : sequence_samples) {
-
-            uint64 window_string_hash;
+            uint64 window_string_hash{0};
             switch (hash_algorithm) {
                 case HashAlgorithm::Spooky:
                     window_string_hash = SpookyHash::Hash64(
-                            sequence.c_str(), sliding_window_length, (unsigned)time(NULL));
+                            sequence.c_str(), sliding_window_length, (unsigned)time(NULL)
+                    );
                     break;
                 case HashAlgorithm::Boost:
                     boost::hash<std::string> string_hash_boost;
@@ -42,6 +43,9 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
                 case HashAlgorithm::Native:
                     std::hash<std::string> string_hash_cpp;
                     window_string_hash = string_hash_cpp(sequence);
+                    break;
+                case HashAlgorithm::BlosumHash:
+                    window_string_hash = blash.hash[sequence];
                     break;
             }
 

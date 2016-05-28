@@ -98,7 +98,6 @@ void start_hits(int argc, char *argv[]) {
     }
 
 
-
     // Parse input file
     double start = clock();
     unordered_map<string, string> db_sequences = FastaParser::parse_fasta_file(db_file_path);

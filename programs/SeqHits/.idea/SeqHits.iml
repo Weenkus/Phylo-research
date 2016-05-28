@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Utils/FastaParser.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/Help.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Core/Hits.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Core/Hits.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/bin" />
     </content>
