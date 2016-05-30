@@ -1,18 +1,18 @@
 HASH_LENGTH = 64
 SEQUENCE_ID_LENGTH = 60
-HASH = 'Blash_12'
+HASH = 'Blash_20'
 WINDOWS_SIZE = 3
 MUTATION_THRESHOLD = 0
 
 
 blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
-                       "ENSP1008/ENSP00000001008_hits_blast.txt"
+                       "ENSP233/ENSP00000000233_hits_blast.txt"
 
 hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
-                      "ENSP1008/ENSP1008_blash_3_12_hits_results.txt"
+                      "ENSP233/ENSP233_blash_3_20_results.txt"
 
-output_file_path = "ENSP1008_blash_12_3_compare.txt"
-csv_comparison = "ENSP1008_blash_12_3_compare.csv"
+output_file_path = "ENSP233_blash_20_3_compare.txt"
+csv_comparison = "ENSP233_blash_20_3_compare.csv"
 
 blast_hits_file = open(blast_hits_file_path, "r")
 hash_hits_file = open(hash_hits_file_path, "r")
