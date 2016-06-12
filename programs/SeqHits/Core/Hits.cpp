@@ -56,12 +56,6 @@ void Hits::compute_hits_chain(std::string target_sequence_hash) {
         int thread_id = omp_get_thread_num();
         int number_of_threads = omp_get_num_threads();
 
-        /*#pragma omp single
-        {
-            std::cout << "Using " << number_of_threads << " threads to compute similarity against db of size: ";
-            std::cout << _db_sequence_hashes.size() << std::endl;
-        }*/
-
         std::set<std::pair<int, std::string>> round_results;
 
         for (auto element = _db_sequence_hashes.begin();
@@ -74,6 +68,17 @@ void Hits::compute_hits_chain(std::string target_sequence_hash) {
                         _target_sequence_id, (*element).first, ham_distance);
 
                 _hits_final_results.push_back(std::make_pair(ham_distance, target_db_comparison_string));
+                std::string current_sequence_id = (*element).first;
+
+                if(_results_map.find(current_sequence_id) == _results_map.end())
+                    _results_map[current_sequence_id] = ham_distance;
+                else {
+                    int previous_distance = _results_map[current_sequence_id];
+                    if( previous_distance > ham_distance)
+                        _results_map[current_sequence_id] = ham_distance;
+                }
+
+
             } else {
                 round_results.insert(std::make_pair(ham_distance, (*element).second));
             };
@@ -88,10 +93,11 @@ void Hits::compute_hits_chain(std::string target_sequence_hash) {
             int number_of_next_round_sequences{0};
             for(auto result : round_results) {
 
-                if (is_not_valid_thread_id(thread_count, number_of_threads, thread_id))
-                    continue;
+                //if (is_not_valid_thread_id(thread_count, number_of_threads, thread_id))
+                  //  continue;
 
-                if (result.first > _from_distance && result.first < _to_distance && number_of_next_round_sequences < _max_sequences) {
+                if (result.first >= _from_distance && result.first <= _to_distance
+                    && number_of_next_round_sequences < _max_sequences) {
 
                     //std::cout << result.second << std::endl;
 
@@ -155,11 +161,17 @@ void Hits::write_results_to_file(std::string file_path) {
     {
         std::ofstream output_file_handle(file_path);
 
-        //sort by key using std::stable_sort
-        std::stable_sort(_hits_final_results.begin(), _hits_final_results.end());
+        if (_chain_number == 0) {
+            //sort by key using std::stable_sort
+            std::stable_sort(_hits_final_results.begin(), _hits_final_results.end());
 
-        for(auto hit = _hits_final_results.begin(); hit != _hits_final_results.end(); ++hit)
-            output_file_handle << (*hit).second << std::endl;
+            for(auto hit = _hits_final_results.begin(); hit != _hits_final_results.end(); ++hit)
+                output_file_handle << (*hit).second << std::endl;
+
+        } else {
+            for(auto it = _results_map.begin(); it != _results_map.end(); ++it)
+                output_file_handle << construct_compared_sequence_string(_target_sequence_id, (*it).first, (*it).second) << std::endl;
+        }
 
     }
 }

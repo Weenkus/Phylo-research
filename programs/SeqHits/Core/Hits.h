@@ -42,6 +42,7 @@ private:
     std::unordered_map<std::string, std::string> _target_sequence_hashes;
 
     std::vector<std::pair<int, std::string>> _hits_final_results;
+    std::unordered_map<std::string, int> _results_map;
     std::set<std::string> _hash_results;
 
     std::string _target_sequence_id;

@@ -20,7 +20,7 @@ void Help::print_help() {
     cout << "-help                      -       Print input arguments and program details.\n\n";
 
     cout << "-log_chain                 -       Write results leading to the final results in a file while using chaining.\n"
-            "                                   The default value is \"0\" - don't write. Pass 1 to write the middle results (in a file).\n";
+            "                                   The default value is \"0\" - don't write. Pass 1 to write the middle results (in a file).\n\n";
 
 
     cout << "-chain_hits                -       Uses the results from the algorithm as a query multiple times to obtain\n"
