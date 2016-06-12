@@ -27,24 +27,28 @@ Hits::Hits(std::unordered_map<std::string, std::string> db_seq_hashes,
 }
 
 void Hits::run() {
-    for(int i{0}; i < _chain_number; ++i) {
+    if (_chain_number == 0) {
+        std::string target_sequence = (*_target_sequence_hashes.begin()).second;
+        compute_hits(target_sequence);
+    } else {
+        for(int i{0}; i < _chain_number; ++i) {
 
-        std::set<std::string> _buffered_hash_results(_hash_results);
-        _hash_results.clear();
+            std::set<std::string> _buffered_hash_results(_hash_results);
+            _hash_results.clear();
 
-        std::cout << "Iteration remaining: " << _remaining_iterations << std::endl;
+            std::cout << "Iteration remaining: " << _remaining_iterations << std::endl;
 
-        for(auto target_sequence : _buffered_hash_results) {
-            std::cout << "Target sequence: " << target_sequence << std::endl;
-            compute_hits(target_sequence);
+            for(auto target_sequence : _buffered_hash_results) {
+                std::cout << "Target sequence: " << target_sequence << std::endl;
+                compute_hits_chain(target_sequence);
+            }
+
+            --_remaining_iterations;
         }
-
-        --_remaining_iterations;
     }
 }
 
-void Hits::compute_hits(std::string target_sequence_hash) {
-
+void Hits::compute_hits_chain(std::string target_sequence_hash) {
     {
         double start = omp_get_wtime();
 
@@ -99,10 +103,48 @@ void Hits::compute_hits(std::string target_sequence_hash) {
     }
 }
 
+void Hits::compute_hits(std::string target_sequence_hash) {
+    double start = omp_get_wtime();
+
+    //#pragma omp parallel num_threads(_num_threads)
+    {
+        size_t thread_count = 0;
+        int thread_id = omp_get_thread_num();
+        int number_of_threads = omp_get_num_threads();
+
+        //#pragma omp single
+        {
+            std::cout << "Starting hits algorithm without chaining.\n";
+            std::cout << "Using " << number_of_threads << " threads to compute similarity against db of size: ";
+            std::cout << _db_sequence_hashes.size() << std::endl;
+        }
+
+
+        for (auto element = _db_sequence_hashes.begin();
+             element != _db_sequence_hashes.end(); ++element, thread_count++) {
+
+            //if(thread_count % number_of_threads != thread_id)
+            //    continue;
+
+            std::string db_seq = (*element).second;
+            int ham_distance = hamming_distance(target_sequence_hash, db_seq);
+
+            std::string db_seq_id = (*element).first;
+            std::string target_db_comparison_string = construct_compared_sequence_string(
+                    _target_sequence_id, db_seq_id, ham_distance
+            );
+
+            _hits_final_results.push_back(std::make_pair(ham_distance, target_db_comparison_string));
+            std::cout << db_seq_id << " " << db_seq << std::endl;
+        }
+    }
+
+    std::cout << "Hits created in " << (omp_get_wtime()-start) << " seconds." << std::endl;
+}
+
 int Hits::hamming_distance(std::string sequence1, std::string sequence2) {
     int distance = 0;
 
-    #pragma omp parallel for
     for(int i = 0; i < sequence1.length(); i++)
         distance += (sequence1[i] != sequence2[i]);
 
@@ -134,14 +176,4 @@ bool Hits::is_not_valid_thread_id(size_t thread_count, int number_of_threads, in
 bool Hits::is_last_hits_round() {
     return _remaining_iterations == 1;
 }
-
-
-
-
-
-
-
-
-
-
 

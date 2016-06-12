@@ -5,7 +5,7 @@
 #ifndef SHC_SIMHASH_H
 #define SHC_SIMHASH_H
 
-#include "HashFunctions/SpookyV2/SpookyV2.h"
+
 #include "Utils/ScoreMatrix.h"
 
 #include <vector>
@@ -13,16 +13,18 @@
 #include <iostream>
 
 #include <boost/functional/hash.hpp>
+#include "HashFunctions/Blash/Blash.h"
+#include "HashFunctions/SpookyV2/SpookyV2.h"
 
 
 class SimHash {
 
 public:
 
-    enum class HashAlgorithm { Boost, Spooky, Native };
+    enum HashAlgorithm { Boost, Spooky, Native, BlosumHash };
 
-    static std::string sim_hash(std::string sequence, size_t sliding_window_length,
-                                HashAlgorithm hash_algorithm, int mutation_threshold);
+    static std::string sim_hash(std::string sequence, size_t sliding_window_length, HashAlgorithm hash_algorithm,
+                                int mutation_threshold, std::string score_matrix_path, Blash blash);
 
 };
 

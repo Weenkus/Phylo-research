@@ -18,16 +18,21 @@ void Help::print() {
 
     cout << "-num_threads          -       Number of threads the program is going to use (1 is default).\n\n";
 
+    cout << "-score_matrix         -       Path to score matrix in .txt format (BLOSUM, PAN).\n\n";
+
     cout << "-sliding_window       -       Length of the sliding window in the simhash algorithm (8 is default).\n\n";
 
-    cout << "-hash                 -       Name of the hash function used in the simhash algorithm {Boost, Native, Spooky} (Boost is default).\n\n";
+    cout << "-hash                 -       Name of the hash function used in the simhash algorithm {Boost, Native, Spooky} (Native is default).\n\n";
     cout << "                               Boost       - 64 bit hash from the boost library\n";
     cout << "                               Native      - 64 bit native cpp hash from std\n";
     cout << "                               Spooky      - 32, 64, 128 bit hash by Jenkins (64 bit used)\n\n";
+    cout << "                               Blash       - 64 bit hash Vinko Kodzoman (only window length 3 works so far)\n\n";
 
     cout << "-mutation_threshold   -       The program uses BLOSUM62 mutation matrix to generate additional hashes in the construction\n"
             "                              of simhash. Higher threshold means more mutations, thus creating more hashes\n"
             "                              per k-mer (k-window) of the input sequence. (default 0)\n\n";
+
+    cout << "-blash_threshold       -       Same as mutation_threshold but it is used for generating the blash hash function\n\n";
 
     cout << "-help                 -       Print input arguments and program details.\n";
 }

@@ -49,6 +49,7 @@ private:
     bool _log_chain_trace{false};
     int _num_threads{1}, _from_distance{0}, _to_distance{0}, _chain_number{0}, _remaining_iterations{0}, _max_sequences{10};
 
+    void compute_hits_chain(std::string target_sequence_hash);
     void compute_hits(std::string target_sequence_hash);
     int hamming_distance(std::string sequence1, std::string sequence2);
     bool is_not_valid_thread_id(size_t thread_count, int number_of_threads, int thread_id);

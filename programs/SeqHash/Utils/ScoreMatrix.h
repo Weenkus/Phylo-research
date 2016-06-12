@@ -21,7 +21,7 @@ public:
 
     int get_value(char original_amino_acid, char mutated_amino_acid);
     const std::vector<char> get_amino_acids() const { return _amino_acids; }
-    int get_mutation_score(std::string original_sequence, std::string mutated_sequence);
+    inline int get_mutation_score(std::string original_sequence, std::string mutated_sequence);
 
     std::vector<std::string> get_mutation_sequences(std::string sequence, int mutation_threshold);
 

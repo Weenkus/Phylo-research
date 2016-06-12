@@ -25,11 +25,11 @@ void ScoreMatrix::print() {
 }
 
 
-int ScoreMatrix::get_mutation_score(std::string original_sequence, std::string mutated_sequence) {
+inline int ScoreMatrix::get_mutation_score(std::string original_sequence, std::string mutated_sequence) {
     int mutation_score{0};
-    for(int i{0}; i < original_sequence.length(); ++i) {
+
+    for(int i{0}; i < original_sequence.length(); ++i)
         mutation_score += get_value(original_sequence.at(i), mutated_sequence.at(i));
-    }
 
     return mutation_score;
 }
