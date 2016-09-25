@@ -53,7 +53,12 @@ void invalid_number_of_arguments_print(int argc, char *argv[]) {
 
 
 void SimHash_start(int argc, char **argv) {
-    char *input_file_path {nullptr}, *hash{nullptr}, *output_file_path{nullptr}, *score_matrix_path{""};
+    char *input_file_path {nullptr},
+            *hash{nullptr},
+            *output_file_path{nullptr},
+            *score_matrix_path{""},
+            *alphabet_reduction_file_path{nullptr};
+
     int num_threads {1}, mutation_threshold{0}, blash_threshold{0};
     size_t sliding_window_size{8};
     SimHash::HashAlgorithm hash_algorithm = SimHash::HashAlgorithm::Native;  // Default hash functions
@@ -69,6 +74,8 @@ void SimHash_start(int argc, char **argv) {
                 output_file_path = argv[i + 1];
             } else if (strcmp(argv[i], "-score_matrix") == 0) {
                 score_matrix_path = argv[i + 1];
+            } else if (strcmp(argv[i], "-alphabet_reduction") == 0) {
+                input_file_path = argv[i + 1];
             } else if (strcmp(argv[i], "-hash") == 0) {
 
                 hash = argv[i + 1];

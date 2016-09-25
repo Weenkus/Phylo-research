@@ -20,6 +20,9 @@ void Help::print() {
 
     cout << "-score_matrix         -       Path to score matrix in .txt format (BLOSUM, PAN).\n\n";
 
+    cout << "-alphabet_reduction   -       Path to alphabet reduction configuration in .txt format.\n"
+            "                              All amino acids that belong in the same group should be in one line without spaces.\n\n";
+
     cout << "-sliding_window       -       Length of the sliding window in the simhash algorithm (8 is default).\n\n";
 
     cout << "-hash                 -       Name of the hash function used in the simhash algorithm {Boost, Native, Spooky} (Native is default).\n\n";

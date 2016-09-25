@@ -11,9 +11,11 @@
       <sourceFolder url="file://$MODULE_DIR$/HashFunctions/Blash/Blash.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HashFunctions/Blash/Blash.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/ScoreMatrix.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Utils/Help.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Utils/AlphabetReduction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Utils/AlphabetReduction.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/ScoreMatrix.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/FastaParser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Utils/Help.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/Help.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Utils/FastaParser.h" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/bin" />
