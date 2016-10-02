@@ -45,8 +45,6 @@ void non_valid_input_arguments_tell_user(int argc, char *argv[]) {
     cerr << "Invalid number of arguments." << endl;
     cout << "Type help for more information" << endl;
     exit(0);
-
-    // Parse user arguments
 }
 
 bool is_valid_input_arguments(int argc) {
@@ -75,9 +73,6 @@ void start_hits(int argc, char *argv[]) {
                 max_sequences = atoi(argv[i + 4]);
             } else if (strcmp(argv[i], "-log_chain") == 0) {
                 log_chain = atoi(argv[i + 1]);
-            } else {
-                //cerr << "Invalid arguments, please try again.\n";
-                //exit(0);
             }
         }
         cout << argv[i] << " ";

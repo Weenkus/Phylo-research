@@ -6,13 +6,13 @@ MUTATION_THRESHOLD = 0
 
 
 blast_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
-                       "ENSP233/ENSP00000000233_hits_blast.txt"
+                       "ENSP1146/ENSP00000001146_hits_blast.txt"
 
 hash_hits_file_path = "/home/weenkus/workspace/Phylo-research/results_simHash/blast_comparison_new/" \
-                      "ENSP233/ENSP233_native_3_chain_from0_to5_iter7_max5.txt"
+                      "ENSP1146/ENSP1146_native_mapper10_hits.txt"
 
-output_file_path = "ENSP233_native_3_chain_from0_to5_iter7_max5_compare.txt"
-csv_comparison = "ENSP233_native_3_chain_from0_to5_iter7_max5_compare.csv"
+output_file_path = "ENSP1146_native_mapper10_hits_compare.txt"
+csv_comparison = "ENSP1146_native_mapper10_hits_compare.csv"
 
 blast_hits_file = open(blast_hits_file_path, "r")
 hash_hits_file = open(hash_hits_file_path, "r")
