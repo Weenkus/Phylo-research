@@ -11,6 +11,7 @@
 #include "Utils/FastaParser.h"
 #include "SimHash.h"
 #include "Utils/Help.h"
+#include "Utils/AlphabetReduction.h"
 #include "HashFunctions/Blash/Blash.h"
 
 
@@ -56,10 +57,13 @@ void SimHash_start(int argc, char **argv) {
     char *input_file_path {nullptr},
             *hash{nullptr},
             *output_file_path{nullptr},
-            *score_matrix_path{""},
+            *score_matrix_path{nullptr},
             *alphabet_reduction_file_path{nullptr};
 
-    int num_threads {1}, mutation_threshold{0}, blash_threshold{0};
+    int num_threads {1},
+            mutation_threshold{0},
+            blash_threshold{0};
+
     size_t sliding_window_size{8};
     SimHash::HashAlgorithm hash_algorithm = SimHash::HashAlgorithm::Native;  // Default hash functions
 
@@ -75,7 +79,7 @@ void SimHash_start(int argc, char **argv) {
             } else if (strcmp(argv[i], "-score_matrix") == 0) {
                 score_matrix_path = argv[i + 1];
             } else if (strcmp(argv[i], "-alphabet_reduction") == 0) {
-                input_file_path = argv[i + 1];
+                alphabet_reduction_file_path = argv[i + 1];
             } else if (strcmp(argv[i], "-hash") == 0) {
 
                 hash = argv[i + 1];
@@ -93,14 +97,11 @@ void SimHash_start(int argc, char **argv) {
                 }
 
             } else if (strcmp(argv[i], "-sliding_window") == 0) {
-                sliding_window_size = atoi(argv[i + 1]);
+                sliding_window_size = static_cast<size_t >(atoi(argv[i + 1]));
             } else if (strcmp(argv[i], "-mutation_threshold") == 0) {
                 mutation_threshold = atoi(argv[i + 1]);
             } else if (strcmp(argv[i], "-blash_threshold") == 0) {
                 blash_threshold = atoi(argv[i + 1]);
-            } else {
-                //cerr << "Invalid arguments, please try again.\n";
-                //exit(0);
             }
         }
         cout << argv[i] << " ";
@@ -124,17 +125,41 @@ void SimHash_start(int argc, char **argv) {
     // Parse input file
     double start = clock();
     unordered_map<string, string> sequence_id_map = FastaParser::parse_fasta_file(input_file_path);
-    cout << "\nParsing done in " << (clock()-start)/CLOCKS_PER_SEC << " seconds." << endl;
+    cout << "\nFast file parsing done in " << (clock()-start)/CLOCKS_PER_SEC << " seconds.\n\n";
 
-    // Ready blash
-    double blash_time = clock();
-
-    Blash blash(score_matrix_path, sliding_window_size, 64, blash_threshold);
-    if (hash_algorithm == SimHash::HashAlgorithm::BlosumHash) {
-        cout << "Initialising Blash hash function... (this will take a couple of senconds)" << endl;
-        blash.init_amino_acids();
-        cout << "Blash hashing function initialised in " << (clock()-blash_time)/CLOCKS_PER_SEC  << " seconds." << endl;
+    // Ready ScoreMatrix
+    ScoreMatrix *score_matrix{nullptr};
+    if (score_matrix_path != nullptr) {
+        double score_matrix_time = clock();
+        cout << "ScoreMatrix path: " << score_matrix_path << endl;
+        score_matrix = new ScoreMatrix(score_matrix_path);
+        cout << "Initialising ScoreMatrix..." << endl;
+        cout << "ScoreMatrix initialised in " << (clock()-score_matrix_time)/CLOCKS_PER_SEC  << " seconds.\n\n";
     }
+
+    // Ready Blash
+    Blash *blash{nullptr};
+    if (hash_algorithm == SimHash::HashAlgorithm::BlosumHash) {
+        double blash_time = clock();
+        blash = new Blash(score_matrix_path, sliding_window_size, 64, blash_threshold);
+        cout << "Initialising Blash hash function..." << endl;
+        blash->init_amino_acids();
+        cout << "Blash hashing function initialised in " << (clock()-blash_time)/CLOCKS_PER_SEC  << " seconds.\n\n";
+    }
+
+    // Ready Alphabet Reduction
+    AlphabetReduction *alphabet_reductor{nullptr};
+    if(alphabet_reduction_file_path != nullptr) {
+        double alphabet_time = clock();
+        cout << "Alphabet reduction mapper path: " << alphabet_reduction_file_path << endl;
+        alphabet_reductor = new AlphabetReduction(alphabet_reduction_file_path);
+        cout << "Initialising alphabet reduction..." << endl;
+        alphabet_reductor->construct_mapper();
+        cout << "Alphabet reduction mapper initialised in " << (clock()-alphabet_time)/CLOCKS_PER_SEC  << " seconds.\n\n";
+    }
+
+    // Init simhash algoritam
+    SimHash sim_hash(hash_algorithm, sliding_window_size, mutation_threshold, score_matrix, blash, alphabet_reductor);
 
     // Comput the simhash
     start = omp_get_wtime();
@@ -152,18 +177,16 @@ void SimHash_start(int argc, char **argv) {
         for(auto element = sequence_id_map.begin(); element !=sequence_id_map.end(); ++element, cnt++) {
             if(cnt % number_of_threads != thread_id) continue;
 
-            string sequence_hash = SimHash::sim_hash((*element).second, sliding_window_size, hash_algorithm,
-                                                     mutation_threshold, string(score_matrix_path), blash);
+            string sequence_hash = sim_hash.hash((*element).second);
             cout << sequence_hash << endl;
 
             #pragma omp critical
-            if(output_file_path != NULL) {
+            if(output_file_path != nullptr) {
                 output_file_handle << ">" <<(*element).first << endl << sequence_hash << endl;
             }
         }
     }
-    cout << "SimHashes created in " << (omp_get_wtime()-start) << " seconds." << endl;
-
+    cout << "\nSimHashes created in " << (omp_get_wtime()-start) << " seconds." << endl;
 
     cout << "\nProgram is finished. (press any key to exit)" << endl;
     std::cin.get();

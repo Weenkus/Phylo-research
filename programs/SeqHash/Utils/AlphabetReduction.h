@@ -13,13 +13,15 @@
 class AlphabetReduction {
 public:
     AlphabetReduction(const std::string alphabet_configuration_path);
-    void construct_mapper();
 
-    inline char map(char amino_acid) { return _mapper[amino_acid]; }
+    void construct_mapper();
+    void print();
+
+    inline char map(char amino_acid) { return m_mapper[amino_acid]; }
 
 private:
-    const std::string _path;
-    std::unordered_map<char, char> _mapper;
+    const std::string m_path;
+    std::unordered_map<char, char> m_mapper;
 };
 
 

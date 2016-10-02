@@ -6,23 +6,32 @@
 
 const int HASH_LENGTH{64};
 
-std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length, HashAlgorithm hash_algorithm,
-                              int mutation_threshold, std::string score_matrix_path, Blash blash) {
+SimHash::SimHash(HashAlgorithm hash_algorithm, size_t sliding_window_length, int mutation_threshold,
+                 ScoreMatrix *score_matrix, Blash *blash, AlphabetReduction *alphabet_reductor) :
+
+    m_hash_algorithm(hash_algorithm),
+    m_sliding_window_length(sliding_window_length),
+    m_mutation_threshold(mutation_threshold),
+    m_score_matrix(score_matrix),
+    m_blash(blash),
+    m_alphabet_reductor(alphabet_reductor)
+{}
+
+
+std::string SimHash::hash(std::string sequence) {
 
     std::vector<int> sim_hash_bit_array (HASH_LENGTH, 0);
 
-    for(unsigned int i = 0; i < sequence.length() - sliding_window_length; i++) {
+    for(unsigned int i = 0; i < sequence.length() - m_sliding_window_length; i++) {
 
-        std::string window_string = sequence.substr(i, sliding_window_length);
+        std::string window_string = sequence.substr(i, m_sliding_window_length);
 
         std::vector<std::string> sequence_samples;
         sequence_samples.push_back(window_string);
 
-        if(mutation_threshold != 0) {
-            ScoreMatrix score_matrix(score_matrix_path);
-
-            std::vector<std::string> mutated_sequences = score_matrix.get_mutation_sequences(
-                    window_string, mutation_threshold
+        if(m_mutation_threshold != 0) {
+            std::vector<std::string> mutated_sequences = m_score_matrix->get_mutation_sequences(
+                    window_string, m_mutation_threshold
             );
 
             sequence_samples.insert(sequence_samples.end(), mutated_sequences.begin(), mutated_sequences.end());
@@ -30,10 +39,10 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
 
         for(auto sequence : sequence_samples) {
             uint64 window_string_hash{0};
-            switch (hash_algorithm) {
+            switch (m_hash_algorithm) {
                 case HashAlgorithm::Spooky:
                     window_string_hash = SpookyHash::Hash64(
-                            sequence.c_str(), sliding_window_length, (unsigned)time(NULL)
+                            sequence.c_str(), m_sliding_window_length, (unsigned)time(NULL)
                     );
                     break;
                 case HashAlgorithm::Boost:
@@ -45,7 +54,7 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
                     window_string_hash = string_hash_cpp(sequence);
                     break;
                 case HashAlgorithm::BlosumHash:
-                    window_string_hash = blash.hash[sequence];
+                    window_string_hash = m_blash->hash[sequence];
                     break;
             }
 
@@ -71,5 +80,17 @@ std::string SimHash::sim_hash(std::string sequence, size_t sliding_window_length
 
     return sim_hash_output;
 }
+
+SimHash::~SimHash() {
+    if (m_blash != nullptr) delete m_blash;
+    if (m_alphabet_reductor != nullptr) delete m_alphabet_reductor;
+    if (m_score_matrix != nullptr) delete m_score_matrix;
+}
+
+
+
+
+
+
 
 

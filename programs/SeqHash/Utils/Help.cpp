@@ -27,7 +27,7 @@ void Help::print() {
 
     cout << "-hash                 -       Name of the hash function used in the simhash algorithm {Boost, Native, Spooky} (Native is default).\n\n";
     cout << "                               Boost       - 64 bit hash from the boost library\n";
-    cout << "                               Native      - 64 bit native cpp hash from std\n";
+    cout << "                               Native      - 64 bit native cpp hash from std (DEFAULT)\n";
     cout << "                               Spooky      - 32, 64, 128 bit hash by Jenkins (64 bit used)\n\n";
     cout << "                               Blash       - 64 bit hash Vinko Kodzoman (only window length 3 works so far)\n\n";
 
@@ -35,7 +35,7 @@ void Help::print() {
             "                              of simhash. Higher threshold means more mutations, thus creating more hashes\n"
             "                              per k-mer (k-window) of the input sequence. (default 0)\n\n";
 
-    cout << "-blash_threshold       -       Same as mutation_threshold but it is used for generating the blash hash function\n\n";
+    cout << "-blash_threshold      -       Same as mutation_threshold but it is used for generating the blash hash function\n\n";
 
     cout << "-help                 -       Print input arguments and program details.\n";
 }

@@ -14,18 +14,32 @@
 
 #include <boost/functional/hash.hpp>
 #include "HashFunctions/Blash/Blash.h"
+#include "Utils/AlphabetReduction.h"
 #include "HashFunctions/SpookyV2/SpookyV2.h"
 
 
 class SimHash {
 
-public:
 
+
+public:
     enum HashAlgorithm { Boost, Spooky, Native, BlosumHash };
 
-    static std::string sim_hash(std::string sequence, size_t sliding_window_length, HashAlgorithm hash_algorithm,
-                                int mutation_threshold, std::string score_matrix_path, Blash blash);
+    SimHash(HashAlgorithm hash_algorithm, size_t sliding_window_length, int mutation_threshold,
+            ScoreMatrix *m_score_matrix, Blash *m_blash, AlphabetReduction *m_alphabet_reductor);
+    ~SimHash();
 
+    std::string hash(std::string sequence);
+
+
+private:
+
+    HashAlgorithm m_hash_algorithm;
+    size_t m_sliding_window_length;
+    int m_mutation_threshold;
+    ScoreMatrix *m_score_matrix;
+    Blash *m_blash;
+    AlphabetReduction *m_alphabet_reductor;
 };
 
 

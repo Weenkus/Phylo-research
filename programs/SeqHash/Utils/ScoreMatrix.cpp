@@ -5,18 +5,18 @@
 #include "ScoreMatrix.h"
 
 ScoreMatrix::ScoreMatrix(std::string file_path) {
-    _score_matrix = read_matrix(file_path);
+    m_score_matrix = read_matrix(file_path);
 }
 
 
 int ScoreMatrix::get_value(char original_amino_acid, char mutated_amino_acid) {
-    return _score_matrix[_amino_acid_index[original_amino_acid]][_amino_acid_index[mutated_amino_acid]];
+    return m_score_matrix[m_amino_acid_index[original_amino_acid]][m_amino_acid_index[mutated_amino_acid]];
 }
 
 void ScoreMatrix::print() {
     std::cout << "ScoreMatrix (BLOSUM62) :" << std::endl;
 
-    for(auto row : _score_matrix) {
+    for(auto row : m_score_matrix) {
         for(auto element : row) {
             std::cout << element << " ";
         }
@@ -38,7 +38,7 @@ std::vector<std::string> ScoreMatrix::get_mutation_sequences(std::string sequenc
     std::vector<std::string> mutated_sequences;
 
     for(int i{0}; i < sequence.length(); ++i) {
-        for(auto &amino_acid : _amino_acids) {
+        for(auto &amino_acid : m_amino_acids) {
 
             std::string mutated_sequence = sequence;
             mutated_sequence[i] = amino_acid;
