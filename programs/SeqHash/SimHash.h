@@ -40,6 +40,10 @@ private:
     ScoreMatrix *m_score_matrix;
     Blash *m_blash;
     AlphabetReduction *m_alphabet_reductor;
+
+    std::string reduce_alphabet(std::string &sequence);
+    std::string to_string(const vector<int> &hash);
+    uint64 hash_sequence(const std::string &sequence);
 };
 
 
